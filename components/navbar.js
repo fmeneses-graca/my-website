@@ -1,26 +1,54 @@
-import { IoMenu, IoHome, IoPerson, IoSchool, IoBriefcase, IoDocumentText, IoTerminal, IoFileTrayStacked, IoChatbubbles, IoSunnyOutline, IoSunny } from "react-icons/io5";
+import { IoPerson, IoSchool, IoBriefcase, IoTerminal, IoChatbubbles, IoSunnyOutline } from "react-icons/io5";
+import { Link, animateScroll as scroll } from "react-scroll"
 
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <NavbarElement icon={<IoPerson size="28" />} text="About"/>
-            <NavbarElement icon={<IoBriefcase size="28" />} text="Skills"/>
-            <NavbarElement icon={<IoSchool size="28" />} text="Resume"/>
-            <NavbarElement icon={<IoTerminal size="28" />} text="Projects"/>
-            <NavbarElement icon={<IoChatbubbles size="28" />} text="Contact"/>
-            <NavbarElement icon={<IoSunnyOutline size="28" />} text="Dark mode"/>
+            <NavbarElement
+                target="about"
+                icon={<IoPerson size="28" />}
+                text="About"
+            />
+            <NavbarElement
+                target="skills"
+                icon={<IoBriefcase size="28" />}
+                text="Skills"
+            />
+            <NavbarElement
+                target="projects"
+                icon={<IoTerminal size="28" />}
+                text="Projects"
+            />
+            <NavbarElement
+                target="experience"
+                icon={<IoSchool size="28" />}
+                text="Experience"
+            />
+            <NavbarElement
+                target="contact"
+                icon={<IoChatbubbles size="28" />}
+                text="Contact"
+            />
+            {/* <NavbarElement icon={<IoSunnyOutline size="28" />} text="Dark mode"/> */}
         </nav>
     )
 }
 
-function NavbarElement({ icon, text = '' }) {
+function NavbarElement({ target, icon, text }) {
     return (
-        <a className="navbar-icon group">
+        <Link
+            activeClass="active"
+            to={target}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="navbar-icon group"
+        >
             {icon}
-
             <span className="navbar-tooltip group-hover:scale-100">
                 {text}
             </span>
-        </a>
+        </Link>
     )
 }
