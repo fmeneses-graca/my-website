@@ -17,7 +17,7 @@ export default function About() {
                 <br /><br />
                 My strengths in the programming field gravitate around JavaScript full-stack technologies, 
                 such as MongoDB, Express.js, React, and Node.js (the MERN stack). Additionally, my day-to-day toolkit 
-                includes the following technologies: Next.js, TailwindCSS, Git, GitHub, and Visual Studio Code.
+                includes the following technologies: Next.js, TailwindCSS, Git, GitHub, Vercel, and Visual Studio Code.
             </p>
 
         </div>
