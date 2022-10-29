@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         primary: '#202225',
         secondary: '#0074de'
+      },
+      fontFamily: {
+        roboto: ["Roboto Mono", "monospace"]
       }
     },
   },
