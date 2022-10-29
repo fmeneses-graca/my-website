@@ -11,7 +11,7 @@ module.exports = {
         secondary: '#0074de'
       },
       fontFamily: {
-        roboto: ["Roboto Mono", "monospace"]
+        montserrat: ['Montserrat', 'sans-serif']
       }
     },
   },
