@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import profilePic from '../public/me.jpg'
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
+import Link from 'next/link'
 
 export default function About() {
     return (
@@ -22,8 +23,12 @@ export default function About() {
             </p>
 
             <div className="flex-container pt-10 w-1/3 mx-auto">
-                <a className="icon" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank"><IoLogoLinkedin size="28" /></a>
-                <a className="icon" href="https://github.com/fmeneses-graca" target="_blank"><IoLogoGithub size="28" /></a>
+                <Link className="icon" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank">
+                    <IoLogoLinkedin size="28" />
+                </Link>
+                <Link className="icon" href="https://github.com/fmeneses-graca" target="_blank">
+                    <IoLogoGithub size="28" />
+                </Link>
             </div>
 
         </div>
