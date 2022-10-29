@@ -1,4 +1,4 @@
-import { IoPerson, IoSchool, IoBriefcase, IoTerminal, IoChatbubbles, IoSunnyOutline } from "react-icons/io5";
+import { IoPerson, IoSchool, IoBriefcase, IoTerminal, IoChatbubbles, IoSunnyOutline } from "react-icons/io5"
 import { Link, animateScroll as scroll } from "react-scroll"
 
 export default function Navbar() {
@@ -36,7 +36,7 @@ export default function Navbar() {
 
 function NavbarElement({ target, icon, text }) {
     return (
-        <Link className="navbar-icon group" to={target} smooth={true} offset={-10} duration={600}>
+        <Link className="icon group" to={target} smooth={true} offset={-10} duration={600}>
             {icon}
             <span className="navbar-tooltip group-hover:scale-100">
                 {text}
