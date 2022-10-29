@@ -2,7 +2,7 @@ import Card from "./card"
 
 export default function Experience() {
     return (
-        <div className="section-container">
+        <section className="section-container">
             <h1>My Experience</h1>
 
             <h2>Education</h2>
@@ -19,7 +19,7 @@ export default function Experience() {
                 <Card title="Sales Associate" text={legoCardText()} />
                 <Card title="Legal Data Analyst" text={oabCardText()} />
             </div>
-        </div>
+        </section>
     )
 }
 

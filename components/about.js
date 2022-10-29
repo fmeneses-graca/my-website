@@ -3,7 +3,7 @@ import profilePic from '../public/me.jpg'
 
 export default function About() {
     return (
-        <div className="section-container">
+        <section className="section-container">
             <h1>Hello, I&apos;m Felipe!</h1>
 
             <div className="flex justify-center py-10">
@@ -20,6 +20,6 @@ export default function About() {
                 includes the following technologies: Next.js, TailwindCSS, Git, GitHub, Vercel, and Visual Studio Code.
             </p>
 
-        </div>
+        </section>
     )
 }

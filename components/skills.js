@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="section-container">
+        <section className="section-container">
             <h1>My Developer Skills</h1>
 
             <div className="flex-container py-10 md:w-2/3 md:mx-auto">
@@ -24,7 +24,7 @@ export default function Skills() {
                 <SkillElement text="GitHub" />
                 <SkillElement text="Visual Studio Code" />
             </div>
-        </div>
+        </section>
     )
 }
 
