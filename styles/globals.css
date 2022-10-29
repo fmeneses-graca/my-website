@@ -31,6 +31,7 @@
     p {
         @apply text-lg md:mx-auto
     }
+
 }
 
 @layer components {
@@ -66,9 +67,8 @@
         md:border-r-2
     }
 
-    .navbar-icon {
+    .icon {
         @apply 
-        relative 
         flex 
         items-center
         justify-center
