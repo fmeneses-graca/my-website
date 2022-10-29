@@ -10,7 +10,7 @@ export default function Layout() {
     return (
         <>
             <Navbar />
-            <div className="bg-primary md:pl-20">
+            <div className="md:pl-20">
                 <About />
                 <HorizontalLine />
                 <Skills />
