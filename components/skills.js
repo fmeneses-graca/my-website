@@ -17,6 +17,9 @@ export default function Skills() {
                 <SkillElement text="SQL" />
                 <SkillElement text="MongoDB" />
                 <SkillElement text="PostgreSQL" />
+                <SkillElement text="Vercel" />
+                <SkillElement text="Heroku" />
+                <SkillElement text="Cyclic" />
                 <SkillElement text="Git" />
                 <SkillElement text="GitHub" />
                 <SkillElement text="Visual Studio Code" />
