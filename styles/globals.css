@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @layer base {
+    html {
+        @apply bg-primary
+    }
+
     h1, h2, h3, p {
         @apply font-montserrat text-white
     }
@@ -44,7 +48,8 @@
         flex 
         bottom-0 
         w-screen 
-        m-0 
+        h-20
+        m-0
         bg-primary 
         text-secondary 
         border-t-secondary 
