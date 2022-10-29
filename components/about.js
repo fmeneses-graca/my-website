@@ -11,12 +11,12 @@ export default function About() {
             </div>
 
             <p className="md:w-2/3 md:mx-auto">
-                I&apos;m a full-stack developer focused on building useful and attractive web applications. 
-                I&apos;m particularly inspired by the idea of developing aesthetically appealing web applications 
+                I&apos;m a full-stack developer focused on building useful and attractive web applications.
+                I&apos;m particularly inspired by the idea of developing aesthetically appealing web applications
                 that can solve real-life problems to help individuals and organizations achieve their goals.
                 <br /><br />
-                My strengths in the programming field gravitate around JavaScript full-stack technologies, 
-                such as MongoDB, Express.js, React, and Node.js (the MERN stack). Additionally, my day-to-day toolkit 
+                My strengths in the programming field gravitate around JavaScript full-stack technologies,
+                such as MongoDB, Express.js, React, and Node.js (the MERN stack). Additionally, my day-to-day toolkit
                 includes the following technologies: Next.js, TailwindCSS, Git, GitHub, Vercel, and Visual Studio Code.
             </p>
 

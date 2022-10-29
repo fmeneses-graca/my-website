@@ -36,15 +36,7 @@ export default function Navbar() {
 
 function NavbarElement({ target, icon, text }) {
     return (
-        <Link
-            activeClass="active"
-            to={target}
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="navbar-icon group"
-        >
+        <Link className="navbar-icon group" to={target} smooth={true} offset={-10} duration={600}>
             {icon}
             <span className="navbar-tooltip group-hover:scale-100">
                 {text}
