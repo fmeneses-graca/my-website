@@ -31,7 +31,7 @@ export default function Skills() {
 function SkillElement({ text }) {
     return (
         <div className="skill-element">
-            {text}
+            <p>{text}</p>
         </div>
     )
 }
