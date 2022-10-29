@@ -15,9 +15,9 @@ export default function Layout() {
                 <HorizontalLine />
                 <Skills />
                 <HorizontalLine />
-                <Experience />
-                <HorizontalLine />
                 <Projects />
+                <HorizontalLine />
+                <Experience />
                 <HorizontalLine />
                 <Contact />
                 <HorizontalLine />
