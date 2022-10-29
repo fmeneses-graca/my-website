@@ -1,14 +1,143 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@layer components {
-    .sidebar-icon {
-        @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-secondary hover:bg-secondary hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+@layer base {
+    h1, h2, h3, p {
+        @apply font-montserrat text-white
     }
 
-    .sidebar-tooltip {
-        @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
+    h1, h2 {
+        @apply text-center py-5 px-5 font-bold 
+    }
+
+    h1 {
+        @apply text-3xl 
+    }
+
+    h2 {
+        @apply text-2xl 
+    }
+
+    h3 {
+        @apply mb-4 text-xl font-bold 
+    }
+
+    p {
+        @apply text-lg md:mx-auto
     }
 }
+
+@layer components {
+    .section-container {
+        @apply flex-col justify-items-center py-4 px-4
+    }
+
+    .flex-container {
+        @apply flex flex-wrap justify-center
+    }
+
+    .navbar {
+        @apply
+        fixed 
+        flex 
+        bottom-0 
+        w-screen 
+        m-0 
+        bg-primary 
+        text-secondary 
+        border-t-secondary 
+        border-t-2 
+        bg-opacity-80 
+        backdrop-blur-xl 
+        md:flex-col 
+        md:top-0 
+        md:left-0 
+        md:h-screen 
+        md:w-16 
+        md:border-r-secondary 
+        md:border-t-0
+        md:border-r-2
+    }
+
+    .navbar-icon {
+        @apply 
+        relative 
+        flex 
+        items-center
+        justify-center
+        h-12 
+        w-12 
+        mt-2 
+        mb-2 
+        mx-auto 
+        shadow-lg
+        bg-gray-800
+        text-secondary
+        hover:bg-secondary
+        hover:text-white 
+        rounded-3xl 
+        hover:rounded-xl 
+        transition-all 
+        duration-300 
+        ease-linear 
+        cursor-pointer
+    }
+
+    .navbar-tooltip {
+        @apply 
+        absolute 
+        w-auto 
+        p-2 
+        m-2 
+        min-w-max 
+        bottom-14
+        rounded-md 
+        shadow-md 
+        text-white 
+        bg-gray-900 
+        text-xs 
+        font-bold 
+        transition-all 
+        duration-100 
+        scale-0
+        origin-bottom 
+        md:bottom-0
+        md:left-14 
+        md:origin-left
+    }
+
+    .skill-element {
+        @apply
+        px-2 
+        py-2 
+        m-2 
+        bg-secondary 
+        bg-opacity-80 
+        rounded 
+        text-lg 
+        text-white 
+        shadow-lg 
+        shadow-black
+    }
+
+    .card { 
+        @apply 
+        p-6 
+        m-5 
+        w-80
+        bg-white 
+        bg-opacity-10
+        border 
+        border-gray-700 
+        rounded 
+        text-xl 
+        text-white 
+        shadow-lg 
+        shadow-black
+        md:w-1/3
+    }
+
+}
+
