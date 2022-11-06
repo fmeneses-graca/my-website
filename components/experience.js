@@ -8,16 +8,16 @@ export default function Experience() {
             <h2>Education</h2>
 
             <div className="flex-container">
-                <Card title="Computer Programming Diploma" text={senecaCardText()} />
-                <Card title="MBA in Information Technology Management" text={fiapCardText()} />
-                <Card title="Bachelor of Laws" text={uniceubCardText()} />
+                <Card style="small-card" title="Computer Programming Diploma" text={senecaCardText()} />
+                <Card style="small-card" title="MBA in Information Technology Management" text={fiapCardText()} />
+                <Card style="small-card" title="Bachelor of Laws" text={uniceubCardText()} />
             </div>
 
             <h2>Work</h2>
 
             <div className="flex-container">
-                <Card title="Sales Associate" text={legoCardText()} />
-                <Card title="Legal Data Analyst" text={oabCardText()} />
+                <Card style="large-card" title="Sales Associate" text={legoCardText()} />
+                <Card style="large-card" title="Legal Data Analyst" text={oabCardText()} />
             </div>
         </div>
     )
