@@ -3,7 +3,7 @@ export default function Skills() {
         <div id="skills" className="section-container">
             <h1>My Developer Skills</h1>
 
-            <div className="flex-container py-10 md:w-2/3 md:mx-auto">
+            <div className="flex-container md:w-3/5">
                 <SkillElement text="JavaScript" />
                 <SkillElement text="React" />
                 <SkillElement text="Next.js" />
