@@ -8,7 +8,7 @@
         @apply bg-primary
     }
 
-    h1, h2, h3, p {
+    h1, h2, h3, p, label, button, input, textarea {
         @apply font-montserrat text-white
     }
 
