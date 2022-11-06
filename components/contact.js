@@ -129,8 +129,8 @@ export default function Contact() {
                         </svg>
                     </button>
                 </div>
-                {showSuccessMessage && <div className="flex justify-start text-green-400">Message sent with success!</div>}
-                {showErrorMessage && <div className="flex justify-start text-red-400">There was an error while sending your message.</div>}
+                {showSuccessMessage && <div className="flex justify-start text-green-300">Message sent with success!</div>}
+                {showErrorMessage && <div className="flex justify-start text-red-300">There was an error while sending your message.</div>}
             </form>
         </div>
     )
