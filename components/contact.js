@@ -96,8 +96,8 @@ export default function Contact() {
     };
 
     return (
-        <div id="contact" className="section-container mb-10 md:w-4/5 md:mx-auto ">
-            <form onSubmit={handleSubmit} className="flex flex-col px-8 py-8 rounded-lg shadow-xl bg-secondary bg-opacity-80 md:mx-40">
+        <div id="contact" className="flex-container mb-10 md:mx-auto ">
+            <form onSubmit={handleSubmit} className="large-card flex flex-col px-8 py-8 rounded-lg bg-secondary bg-opacity-80 border border-slate-500">
 
                 <h1 className="text-2xl font-bold">Send me a message</h1>
 
