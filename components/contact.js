@@ -19,7 +19,7 @@ export default function Contact() {
 
     // Setting success or failure messages states
     const [showSuccessMessage, setShowSuccessMessage] = useState(false)
-    const [showFailureMessage, setShowFailureMessage] = useState(false)
+    const [showErrorMessage, setShowFailureMessage] = useState(false)
 
     // Form validation
     const handleValidation = () => {
@@ -50,7 +50,7 @@ export default function Contact() {
 
     // Form submission
     const handleSubmit = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
 
         let isValidForm = handleValidation()
 
@@ -67,48 +67,55 @@ export default function Contact() {
                     "Content-Type": "application/json",
                 },
                 method: "POST",
-            })
+            });
 
             const { error } = await res.json()
-
             if (error) {
                 console.log(error)
                 setShowSuccessMessage(false)
                 setShowFailureMessage(true)
                 setButtonText("Send")
+
+                // Reset form fields
+                setFullname("")
+                setEmail("")
+                setMessage("")
+                setSubject("")
                 return
             }
             setShowSuccessMessage(true)
             setShowFailureMessage(false)
             setButtonText("Send")
-            console.log("showSuccessMessage: " + showSuccessMessage)
-            console.log("showFailureMessage: " + showFailureMessage)
+            // Reset form fields
+            setFullname("")
+            setEmail("")
+            setMessage("")
+            setSubject("")
         }
-        console.log(fullname, email, subject, message)
-    }
+        console.log(fullname, email, subject, message);
+    };
 
     return (
-        // <div id="contact" className="section-container">
-        <main className="section-container mb-10">
+        <div id="contact" className="section-container mb-10">
             <form onSubmit={handleSubmit} className="flex flex-col px-8 py-8 my-10 rounded-lg shadow-xl bg-secondary bg-opacity-80 md:mx-40">
 
                 <h1 className="text-2xl font-bold">Send me a message</h1>
 
-                <label htmlFor="fullname" className="mt-8">Full name<span className="text-red-500">*</span></label>
+                <label htmlFor="fullname" className="mt-8">Full name</label>
                 <input type="text" value={fullname} onChange={(e) => { setFullname(e.target.value) }} name="fullname"
                     className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light" />
 
-                <label htmlFor="email" className="mt-4">E-mail<span className="text-red-500">*</span></label>
+                <label htmlFor="email" className="mt-4">E-mail</label>
                 <input type="email" name="email" value={email} onChange={(e) => { setEmail(e.target.value) }}
                     className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light"
                 />
 
-                <label htmlFor="subject" className="mt-4">Subject<span className="text-red-500">*</span></label>
+                <label htmlFor="subject" className="mt-4">Subject</label>
                 <input type="text" name="subject" value={subject} onChange={(e) => { setSubject(e.target.value) }}
                     className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light "
                 />
 
-                <label htmlFor="message" className="mt-4">Message<span className="text-red-500">*</span></label>
+                <label htmlFor="message" className="mt-4">Message</label>
                 <textarea name="message" value={message} onChange={(e) => { setMessage(e.target.value) }}
                     className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light ">
                 </textarea>
@@ -122,12 +129,9 @@ export default function Contact() {
                         </svg>
                     </button>
                 </div>
-
-                {showSuccessMessage && <p></p>
-
-                }
+                {showSuccessMessage && <div className="flex justify-start text-green-400">Message sent with success!</div>}
+                {showErrorMessage && <div className="flex justify-start text-red-400">There was an error while sending your message.</div>}
             </form>
-        </main>
-        // </div>
+        </div>
     )
 }
