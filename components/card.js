@@ -1,6 +1,6 @@
-export default function Card({ title, text = "" }) {
+export default function Card({ style, title, text = "" }) {
     return (
-        <div className="card">
+        <div className={style}>
             <h3>{title}</h3>
             <p>{text}</p>
         </div>
