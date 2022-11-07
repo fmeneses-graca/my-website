@@ -1,8 +1,8 @@
-export default function Card({ style, title, text = "" }) {
+export default function Card({  style, image = "", imageAlt = "", title, text = "" }) {
     return (
         <div className={style}>
             <h3>{title}</h3>
-            <p>{text}</p>
+            {text}
         </div>
     )
 }
