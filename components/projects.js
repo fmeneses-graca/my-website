@@ -23,7 +23,7 @@ export default function Projects() {
 function metUICardText() {
     return (
         <>
-            <Link href="https://senecacollege-web422-assignment4-met-museum.vercel.app/" target="_blank">
+            <Link href="https://met-museum-art-collection-ui.vercel.app/" target="_blank">
                 <Image className="w-auto rounded" src={projectMET} alt="Picture of the MET" />
             </Link>
             <p className="pt-4">
@@ -44,7 +44,7 @@ function metUICardText() {
 function moviesUICardText() {
     return (
         <>
-            <Link href="https://senecacollege-web422-assignment3-react.vercel.app/" target="_blank">
+            <Link href="https://project-movies-ui.vercel.app/" target="_blank">
                 <Image className="w-auto rounded" src={moviesUI} alt="Picture of the homepage of the project Movies UI" />
             </Link>
             <p className="pt-4">
