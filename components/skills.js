@@ -1,3 +1,5 @@
+import SkillElement from "./skillElement";
+
 export default function Skills() {
     return (
         <div id="skills" className="section-container">
@@ -11,11 +13,13 @@ export default function Skills() {
                 <SkillElement text="CSS" />
                 <SkillElement text="TailwindCSS" />
                 <SkillElement text="Bootstrap" />
-                <SkillElement text="REST APIs" />
+                <SkillElement text="APIs" />
                 <SkillElement text="Express.js" />
                 <SkillElement text="Node.js" />
+                <SkillElement text="NoSQL" />
                 <SkillElement text="SQL" />
                 <SkillElement text="MongoDB" />
+                <SkillElement text="Mongoose" />
                 <SkillElement text="PostgreSQL" />
                 <SkillElement text="Vercel" />
                 <SkillElement text="Heroku" />
@@ -24,14 +28,6 @@ export default function Skills() {
                 <SkillElement text="GitHub" />
                 <SkillElement text="Visual Studio Code" />
             </div>
-        </div>
-    )
-}
-
-function SkillElement({ text }) {
-    return (
-        <div className="skill-element">
-            <p>{text}</p>
         </div>
     )
 }
