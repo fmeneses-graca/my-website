@@ -44,18 +44,8 @@
     }
 
     .navbar {
-        @apply
-        fixed 
-        flex 
-        bottom-0 
-        w-screen 
-        h-20
-        m-0
-        bg-primary 
-        text-secondary 
-        border-t-secondary 
-        border-t-2 
-        bg-opacity-80 
+        @apply fixed flex bottom-0 w-screen h-20 m-0
+        bg-primary  text-secondary  border-t-secondary  border-t-2  bg-opacity-80 
         backdrop-blur-xl 
         md:flex-col 
         md:top-0 
@@ -69,48 +59,21 @@
 
     .icon {
         @apply 
-        flex 
-        items-center
-        justify-center
-        h-12 
-        w-12 
-        mt-2 
-        mb-2 
-        mx-auto 
-        shadow-lg
-        bg-gray-800
-        text-secondary
-        hover:bg-secondary
-        hover:text-white 
-        rounded-3xl 
-        hover:rounded-xl 
-        transition-all 
-        duration-300 
-        ease-linear 
-        cursor-pointer
+        relative flex items-center justify-center 
+        h-12 w-12 mt-2 mb-2 mx-auto  
+        bg-gray-800 hover:bg-secondary
+        text-secondary hover:text-white 
+        rounded-3xl hover:rounded-xl 
+        transition-all duration-300 ease-linear 
+        cursor-pointer shadow-lg
     }
-
+    
     .navbar-tooltip {
-        @apply 
-        absolute 
-        w-auto 
-        p-2 
-        m-2 
-        min-w-max 
-        bottom-14
-        rounded-md 
-        shadow-md 
-        text-white 
-        bg-gray-900 
-        text-xs 
-        font-bold 
-        transition-all 
-        duration-100 
-        scale-0
-        origin-bottom 
-        md:bottom-0
-        md:left-14 
-        md:origin-left
+        @apply absolute w-auto p-2 m-2 min-w-max bottom-14 md:bottom-0 md:left-14
+        rounded-md shadow-md 
+        text-white bg-gray-900 
+        text-xs font-bold 
+        transition-all duration-100 scale-0 origin-left 
     }
 
     .skill-element {
