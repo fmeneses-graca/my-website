@@ -5,11 +5,11 @@
 
 @layer base {
     html {
-        @apply bg-primary
+        @apply bg-primary font-montserrat
     }
 
     h1, h2, h3, p, form {
-        @apply font-montserrat text-white
+        @apply text-white
     }
 
     h1, h2 {
