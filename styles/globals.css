@@ -144,7 +144,24 @@
         shadow-lg 
         shadow-black
         md:min-w-min
-    }
+    }   
+
+    .medium-card { 
+        @apply 
+        p-6 
+        m-5 
+        w-80
+        bg-white 
+        bg-opacity-10
+        border 
+        border-slate-800
+        rounded 
+        text-xl 
+        text-white 
+        shadow-lg 
+        shadow-black
+        md:w-2/5
+    } 
 
     .large-card { 
         @apply 
