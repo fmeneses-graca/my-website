@@ -1,4 +1,4 @@
-import SkillElement from "./skillElement";
+import SkillElement from "./SkillElement";
 
 export default function Skills() {
     return (

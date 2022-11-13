@@ -3,7 +3,7 @@ import moviesAPI from '../public/moviesAPI.png'
 import moviesUI from '../public/moviesUI.png'
 import Image from 'next/image'
 import Card from "./card"
-import SkillElement from "./skillElement"
+import SkillElement from "./SkillElement"
 import Link from 'next/link'
 
 export default function Projects() {
