@@ -12,9 +12,9 @@ export default function ProjectSection() {
             <h1>My Projects</h1>
 
             <div className="flex-container">
-                <Card style="medium-card" title="The Met Art Collection User Interface" text={metUICardText()} />
-                <Card style="medium-card" title="Movies User Interface" text={moviesUICardText()} />
-                <Card style="medium-card" title="Movies API" text={moviesAPICardText()} />
+                <Card style="card card-size-medium" title="The Met Art Collection User Interface" text={metUICardText()} />
+                <Card style="card card-size-medium" title="Movies User Interface" text={moviesUICardText()} />
+                <Card style="card card-size-medium" title="Movies API" text={moviesAPICardText()} />
             </div>
         </div>
     )
