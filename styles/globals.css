@@ -45,102 +45,52 @@
 
     .navbar {
         @apply fixed flex bottom-0 w-screen h-20 m-0
-        bg-primary  text-secondary  border-t-secondary  border-t-2  bg-opacity-80 
-        backdrop-blur-xl 
-        md:flex-col 
-        md:top-0 
-        md:left-0 
-        md:h-screen 
-        md:w-16 
-        md:border-r-secondary 
-        md:border-t-0
-        md:border-r-2
+        bg-primary  text-secondary  border-t-secondary  border-t-2  bg-opacity-80 backdrop-blur-xl 
+        md:flex-col md:top-0 md:left-0 md:h-screen md:w-16  md:border-r-secondary md:border-t-0 md:border-r-2
     }
 
     .icon {
         @apply 
         relative flex items-center justify-center 
-        h-12 w-12 mt-2 mb-2 mx-auto  
-        bg-gray-800 hover:bg-secondary
-        text-secondary hover:text-white 
-        rounded-3xl hover:rounded-xl 
+        h-12 w-12 mt-2 mb-2 mx-auto rounded-3xl shadow-lg
+        bg-gray-800 text-secondary 
+        hover:bg-secondary hover:text-white hover:rounded-xl 
         transition-all duration-300 ease-linear 
-        cursor-pointer shadow-lg
+        cursor-pointer 
     }
     
     .navbar-tooltip {
-        @apply absolute w-auto p-2 m-2 min-w-max bottom-14 md:bottom-0 md:left-14
-        rounded-md shadow-md 
-        text-white bg-gray-900 
-        text-xs font-bold 
+        @apply absolute bottom-14 w-auto min-w-max p-2 m-2
+        md:bottom-0 md:left-14
+        rounded-md shadow-md bg-gray-900 
+        text-white text-xs font-bold 
         transition-all duration-100 scale-0 origin-left 
     }
 
     .skill-element {
-        @apply
-        px-3 
-        py-2 
-        m-2 
-        bg-secondary 
-        bg-opacity-80 
-        rounded 
-        text-lg 
-        text-white 
-        shadow-lg 
-        shadow-gray-800
-        border 
-        border-slate-600
+        @apply px-3 py-2 m-2 rounded 
+        bg-secondary bg-opacity-80 border border-slate-600
+        shadow-lg  shadow-gray-800   
+        text-lg text-white 
     }
 
-    .small-card { 
-        @apply 
-        p-6 
-        m-5 
-        w-80
-        bg-white 
-        bg-opacity-10
-        border 
-        border-slate-800
-        rounded 
-        text-xl 
-        text-white 
-        shadow-lg 
-        shadow-black
-        md:min-w-min
+    .card {
+        @apply  p-6 m-5 w-80
+        bg-white bg-opacity-10 border border-slate-800 rounded 
+        text-xl text-white 
+        shadow-lg shadow-black
+    }
+
+    .card-size-small { 
+        @apply md:min-w-min
     }   
 
-    .medium-card { 
-        @apply 
-        p-6 
-        m-5 
-        w-80
-        bg-white 
-        bg-opacity-10
-        border 
-        border-slate-800
-        rounded 
-        text-xl 
-        text-white 
-        shadow-lg 
-        shadow-black
-        md:w-2/5
+    .card-size-medium { 
+        @apply md:w-2/5
     } 
 
-    .large-card { 
-        @apply 
-        p-6 
-        m-5 
-        w-80
-        bg-white 
-        bg-opacity-10
-        border 
-        border-slate-800
-        rounded 
-        text-xl 
-        text-white 
-        shadow-lg 
-        shadow-black
-        md:w-2/3
+    .card-size-large { 
+        @apply md:w-2/3
     }
 
 }
