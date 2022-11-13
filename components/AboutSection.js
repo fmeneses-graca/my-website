@@ -3,7 +3,7 @@ import profilePic from '../public/me.jpg'
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 import Link from 'next/link'
 
-export default function About() {
+export default function AboutSection() {
     return (
         <div id="about" className="section-container">
             <h1>Hello, I&apos;m Felipe!</h1>

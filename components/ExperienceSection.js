@@ -1,6 +1,6 @@
 import Card from "./card"
 
-export default function Experience() {
+export default function ExperienceSection() {
     return (
         <div id="experience" className="section-container">
             <h1>My Experience</h1>

@@ -4,7 +4,7 @@
 
 import { useState } from 'react'
 
-export default function Contact() {
+export default function ContactSection() {
     // States for contact form fields
     const [fullname, setFullname] = useState("")
     const [email, setEmail] = useState("")

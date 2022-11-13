@@ -1,6 +1,6 @@
 import SkillElement from "./SkillElement";
 
-export default function Skills() {
+export default function SkillSection() {
     return (
         <div id="skills" className="section-container">
             <h1>My Developer Skills</h1>

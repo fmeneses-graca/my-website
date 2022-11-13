@@ -1,9 +1,9 @@
-import About from "./about"
-import Contact from "./contact"
-import Projects from "./projects"
-import Experience from "./experience"
-import Navbar from "./navbar"
-import Skills from "./skills"
+import AboutSection from "./AboutSection"
+import ContactSection from "./ContactSection"
+import ProjectSection from "./ProjectSection"
+import ExperienceSection from "./ExperienceSection"
+import Navbar from "./Navbar"
+import SkillSection from "./SkillSection"
 import HorizontalLine from "./horizontal-line"
 
 export default function Layout() {
@@ -11,15 +11,15 @@ export default function Layout() {
         <>
             <Navbar />
             <div className="md:pl-20">
-                <About />
+                <AboutSection />
                 <HorizontalLine />
-                <Skills />
+                <SkillSection />
                 <HorizontalLine />
-                <Projects />
+                <ProjectSection />
                 <HorizontalLine />
-                <Experience />
+                <ExperienceSection />
                 <HorizontalLine />
-                <Contact />
+                <ContactSection />
                 <HorizontalLine />
             </div>
         </>

@@ -6,7 +6,7 @@ import Card from "./card"
 import SkillElement from "./SkillElement"
 import Link from 'next/link'
 
-export default function Projects() {
+export default function ProjectSection() {
     return (
         <div id="projects" className="section-container">
             <h1>My Projects</h1>
