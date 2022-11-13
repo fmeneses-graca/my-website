@@ -4,7 +4,7 @@ import ProjectSection from "./ProjectSection"
 import ExperienceSection from "./ExperienceSection"
 import Navbar from "./Navbar"
 import SkillSection from "./SkillSection"
-import HorizontalLine from "./horizontal-line"
+import HorizontalLine from "./HorizontalLine"
 
 export default function Layout() {
     return (

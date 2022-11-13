@@ -23,10 +23,10 @@ export default function AboutSection() {
             </p>
 
             <div className="flex-container pt-10 w-1/3 mx-auto">
-                <Link className="icon" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank">
+                <Link className="icon -z-10" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank">
                     <IoLogoLinkedin size="28" />
                 </Link>
-                <Link className="icon" href="https://github.com/fmeneses-graca" target="_blank">
+                <Link className="icon -z-10" href="https://github.com/fmeneses-graca" target="_blank">
                     <IoLogoGithub size="28" />
                 </Link>
             </div>
