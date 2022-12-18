@@ -13,8 +13,8 @@ export default function AboutSection() {
             </div>
 
             <p className="md:w-2/3 md:mx-auto">
-                I&apos;m a full-stack developer focused on building useful and attractive web applications.
-                I&apos;m particularly inspired by the idea of developing aesthetically appealing web applications
+                I&apos;m a full-stack developer focused on building useful and attractive applications.
+                I&apos;m particularly inspired by the idea of developing aesthetically appealing applications
                 that can solve real-life problems to help individuals and organizations achieve their goals.
                 <br /><br />
                 My strengths in the programming field gravitate around JavaScript full-stack technologies,
