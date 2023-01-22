@@ -8,10 +8,10 @@ export default function Navbar() {
             <NavbarElement target="about" icon={<IoPerson size="28" />} text="About" />
             <NavbarElement target="projects" icon={<IoTerminal size="28" />} text="Projects" />
             <NavbarElement target="contact" icon={<IoChatbubbles size="28" />} text="Contact" />
-            <a className="icon group" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank">
+            <a className="icon group" href="https://www.linkedin.com/in/felipemenesesg/">
                 <IoLogoLinkedin size="28" />
             </a>
-            <a className="icon group" href="https://github.com/fmeneses-graca" target="_blank">
+            <a className="icon group" href="https://github.com/fmeneses-graca">
                 <IoLogoGithub size="28" />
             </a>
             {/* <NavbarElement target="skills" icon={<IoBriefcase size="28" />} text="Skills" /> */}
