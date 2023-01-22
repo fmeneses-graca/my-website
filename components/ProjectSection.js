@@ -6,8 +6,7 @@ export default function ProjectSection() {
             <div className="flex-col mx-auto">
                 <h1>Projects</h1>
 
-                <p>Work in progress...</p>
-
+                <p className="text-center">Work in progress...</p>
 
             </div>
         </div>
