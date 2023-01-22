@@ -13,12 +13,12 @@ export default function Layout() {
             <div className="md:pl-20">
                 <AboutSection />
                 <HorizontalLine />
-                <SkillSection />
-                <HorizontalLine />
+                {/* <SkillSection />
+                <HorizontalLine /> */}
                 <ProjectSection />
                 <HorizontalLine />
-                <ExperienceSection />
-                <HorizontalLine />
+                {/* <ExperienceSection />
+                <HorizontalLine /> */}
                 <ContactSection />
                 <HorizontalLine />
             </div>
