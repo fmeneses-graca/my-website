@@ -1,6 +1,5 @@
-import { IoPerson, IoSchool, IoBriefcase, IoTerminal, IoChatbubbles, IoSunnyOutline } from "react-icons/io5"
+import { IoPerson, IoTerminal, IoChatbubbles, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 import { Link, animateScroll as scroll } from "react-scroll"
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 
 export default function Navbar() {
     return (
@@ -8,27 +7,21 @@ export default function Navbar() {
             <NavbarElement target="about" icon={<IoPerson size="28" />} text="About" />
             <NavbarElement target="projects" icon={<IoTerminal size="28" />} text="Projects" />
             <NavbarElement target="contact" icon={<IoChatbubbles size="28" />} text="Contact" />
-            <a className="icon group" href="https://www.linkedin.com/in/felipemenesesg/">
+            <a className="icon group" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank" rel="noopener noreferrer">
                 <IoLogoLinkedin size="28" />
                 <span className="navbar-tooltip group-hover:scale-100">
                     LinkedIn
                 </span>
             </a>
-            <a className="icon group" href="https://github.com/fmeneses-graca">
+            <a className="icon group" href="https://github.com/fmeneses-graca" target="_blank" rel="noopener noreferrer">
                 <IoLogoGithub size="28" />
                 <span className="navbar-tooltip group-hover:scale-100">
                     GitHub
                 </span>
             </a>
-            {/* <NavbarElement target="skills" icon={<IoBriefcase size="28" />} text="Skills" /> */}
-            {/* <NavbarElement target="experience" icon={<IoSchool size="28" />} text="Experience" /> */}
-            {/* <NavbarElement icon={<IoSunnyOutline size="28" />} text="Dark mode"/> */}
         </nav>
     )
 }
-
-
-
 
 function NavbarElement({ target, icon, text }) {
     return (
