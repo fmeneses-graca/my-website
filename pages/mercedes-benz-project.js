@@ -125,6 +125,23 @@ function MBAProject() {
                 <Image src={step72} alt="Presentation video" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
 
+                <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Skills developed:</h2>
+                <div className="md:w-1/2 md:mx-auto">
+                    <p>To sum up, during this project I developed the following skills:</p>
+                    <br />
+                    <ul className="pl-4 list-disc">
+                        <li>Data Analysis</li>
+                        <li>Google Sheets</li>
+                        <li>Brainstorming</li>
+                        <li>Market Research</li>
+                        <li>Value Proposition Canvas</li>
+                        <li>Business Model Canvas</li>
+                        <li>Prototyping</li>
+                        <li>Presentation</li>
+                        <li>Google Slides</li>
+                    </ul>
+                </div>
+
                 <button className="icon group" type="button" onClick={() => router.back()}>
                     <IoArrowBackCircle size="40" />
                 </button>
