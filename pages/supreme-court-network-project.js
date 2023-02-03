@@ -74,6 +74,7 @@ function LLBProject() {
                     be discussed in physical sessions subject to live television. We also established that the study would only consider complex
                     cases with a final decision between 2013 and 2018 to reflect the current composition and behaviour of the Court.
                 </p>
+                <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 2. Data Collection - Identifying Relevant Cases</h3>
                 <p className="md:w-1/2 md:mx-auto">
@@ -81,6 +82,7 @@ function LLBProject() {
                     relevant by those stakeholders from 2013 to 2018. After analyzing 24 annual retrospectives, we built a database containing
                     224 relevant cases. However, only 145 cases had a final decision that could be downloaded from the Court&apos;s website and thoroughly analyzed.
                 </p>
+                <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 3. Dictionary-Based Text Analysis - Extracting Foreign Precedents References from Relevant Cases.</h3>
                 <p className="md:w-1/2 md:mx-auto">
