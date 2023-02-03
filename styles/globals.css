@@ -90,7 +90,7 @@
     }
 
     .card-size-large { 
-        @apply w-4/5 md:w-3/5 rounded-lg bg-primary bg-opacity-80 border border-secondary
+        @apply sm:w-4/5 md:w-3/5 rounded-lg bg-primary bg-opacity-80 border border-secondary
     }
 
 }
