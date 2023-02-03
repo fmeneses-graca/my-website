@@ -163,10 +163,11 @@ function LLBProject() {
                 <Image src={finding3} alt="Graphic" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
 
-                <a href="https://www.publicacoesacademicas.uniceub.br/rdi/article/download/6614/pdf" target="_blank" rel="noopener noreferrer">
-                    Check the full article here (Portuguese only).
-                </a>
-
+                <div className="md:w-1/2 md:mx-auto">
+                    <a href="https://www.publicacoesacademicas.uniceub.br/rdi/article/download/6614/pdf" target="_blank" rel="noopener noreferrer">
+                        Check the full article here (Portuguese only).
+                    </a>
+                </div>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Skills developed:</h2>
                 <div className="md:w-1/2 md:mx-auto">
