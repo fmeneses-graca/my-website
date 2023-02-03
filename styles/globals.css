@@ -83,7 +83,7 @@
     }
 
     .card {
-        @apply p-8 my-5 rounded
+        @apply p-8 mb-5 rounded
         bg-white bg-opacity-10 border border-slate-800  
         text-xl text-white 
         shadow-lg shadow-black
