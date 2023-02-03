@@ -58,7 +58,7 @@ function LLBProject() {
                     supreme and international courts or not. With this purpose, the work starts from theoretical elaborations on models of judicial
                     behaviour related to the operation with foreign precedents and, based on such models, develops an empirical study that analyzes:
                     (i) if the Brazilian Court uses foreign precedents in its decision-making process; (ii) which are the main foreign or international
-                    courts whose precedents are referenced by the Court; (iii) how deep is the Court's reasoning based on these precedents.
+                    courts whose precedents are referenced by the Court; (iii) how deep is the Court&apos;s reasoning based on these precedents.
                 </p>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Process:</h2>
@@ -76,7 +76,7 @@ function LLBProject() {
                 <p className="md:w-1/2 md:mx-auto">
                     We explored annual retrospectives published by the Court, lawyers, and professors to identify which cases were considered
                     relevant by those stakeholders from 2013 to 2018. After analyzing 24 annual retrospectives, we built a database containing
-                    224 relevant cases. However, only 145 cases had a final decision that could be downloaded from the Court's website and thoroughly analyzed.
+                    224 relevant cases. However, only 145 cases had a final decision that could be downloaded from the Court&apos;s website and thoroughly analyzed.
                 </p>
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 3. Dictionary-Based Text Analysis - Extracting Foreign Precedents References from Relevant Cases.</h3>
@@ -92,7 +92,7 @@ function LLBProject() {
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 4. Cluster Analysis - Qualitative Analysis of Reasoning Depth.</h3>
                 <p className="md:w-1/2 md:mx-auto">
                     Finally, we performed a cluster analysis to group the references to foreign and international precedents into four categories
-                    based on how deep the Court's reasoning is based on these precedents.
+                    based on how deep the Court&apos;s reasoning is based on these precedents.
                 </p>
                 <br />
 

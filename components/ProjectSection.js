@@ -43,7 +43,7 @@ function courtProjectText() {
         <>
             <p className="pt-4">
                 In this LL.B. project, I published a quantitative analysis that examined +200 cases according 
-                to models of judicial behaviour on how international and foreign precedents affected the Brazilian Supreme Court's rulings.
+                to models of judicial behaviour on how international and foreign precedents affected the Brazilian Supreme Court&apos;s rulings.
             </p>
 
             <div className="flex">
