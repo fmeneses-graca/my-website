@@ -8,7 +8,7 @@
         @apply bg-primary font-montserrat
     }
 
-    h1, h2, h3, p, form {
+    h1, h2, h3, p, form, li, th, td {
         @apply text-white
     }
 
@@ -30,6 +30,14 @@
 
     p {
         @apply text-lg md:mx-auto
+    }
+
+    td, th {
+        @apply border border-secondary py-1
+    }
+
+    a {
+        @apply text-secondary underline
     }
 
 }
@@ -75,22 +83,14 @@
     }
 
     .card {
-        @apply  p-6 m-5 w-80 rounded
+        @apply p-8 my-5 rounded
         bg-white bg-opacity-10 border border-slate-800  
         text-xl text-white 
         shadow-lg shadow-black
     }
 
-    .card-size-small { 
-        @apply md:min-w-min
-    }   
-
-    .card-size-medium { 
-        @apply md:w-2/5
-    } 
-
     .card-size-large { 
-        @apply md:w-2/3
+        @apply w-4/5 md:w-3/5 rounded-lg bg-primary bg-opacity-80 border border-secondary
     }
 
 }

@@ -1,4 +1,4 @@
-import { IoOpen } from "react-icons/io5"
+import { IoArrowForwardCircle } from "react-icons/io5"
 import Card from "./card"
 import Link from 'next/link'
 
@@ -9,7 +9,8 @@ export default function ProjectSection() {
                 <h1>Projects</h1>
 
                 <div className="flex-container">
-                    <Card style="medium-card" title="Mercedes-Benz Trucks Data Analytics Solution" text={mercedesProjectText()} />
+                    <Card style="card-size-large" title="Mercedes-Benz Trucks Data Analytics Solution (MBA)" text={mercedesProjectText()} />
+                    <Card style="card-size-large" title="A Network Supreme Court Quantitative Research (LLB)" text={courtProjectText()} />
                 </div>
 
             </div>
@@ -29,11 +30,29 @@ function mercedesProjectText() {
             <div className="flex">
                 <Link href="/mercedes-benz-project" passHref>
                     <button className="icon group">
-                        <IoOpen size="28" />
+                        <IoArrowForwardCircle size="40" />
                     </button>
                 </Link>
             </div>
+        </>
+    )
+}
 
+function courtProjectText() {
+    return (
+        <>
+            <p className="pt-4">
+                In this LL.B. project, I published a quantitative analysis that examined +200 cases according 
+                to models of judicial behaviour on how international and foreign precedents affected the Brazilian Supreme Court's rulings.
+            </p>
+
+            <div className="flex">
+                <Link href="/supreme-court-network-project" passHref>
+                    <button className="icon group">
+                        <IoArrowForwardCircle size="40" />
+                    </button>
+                </Link>
+            </div>
         </>
     )
 }
