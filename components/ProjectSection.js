@@ -31,6 +31,9 @@ function mercedesProjectText() {
                 <Link href="/mercedes-benz-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip group-hover:scale-100">
+                            Explore the project
+                        </span>
                     </button>
                 </Link>
             </div>
@@ -42,7 +45,7 @@ function courtProjectText() {
     return (
         <>
             <p className="pt-4">
-                In this LL.B. project, I published a quantitative analysis that examined +200 cases according 
+                In this LL.B. project, I published a quantitative analysis that examined +200 cases according
                 to models of judicial behaviour on how international and foreign precedents affected the Brazilian Supreme Court&apos;s rulings.
             </p>
 
@@ -50,6 +53,9 @@ function courtProjectText() {
                 <Link href="/supreme-court-network-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip group-hover:scale-100">
+                            Explore the project
+                        </span>
                     </button>
                 </Link>
             </div>

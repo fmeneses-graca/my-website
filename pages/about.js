@@ -37,9 +37,6 @@ function MBAProject() {
             <div className="flex-col">
                 <button className="icon group" type="button" onClick={() => router.back()}>
                     <IoArrowBackCircle size="40" />
-                    <span className="navbar-tooltip group-hover:scale-100">
-                        Go Back
-                    </span>
                 </button>
 
                 <h1 className="md:w-1/2 mx-auto">
@@ -147,9 +144,6 @@ function MBAProject() {
 
                 <button className="icon group" type="button" onClick={() => router.back()}>
                     <IoArrowBackCircle size="40" />
-                    <span className="navbar-tooltip group-hover:scale-100">
-                        Go Back
-                    </span>
                 </button>
                 <br />
             </div>
