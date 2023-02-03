@@ -1,11 +1,11 @@
-import { IoPerson, IoTerminal, IoChatbubbles, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
+import { IoPerson, IoDocumentText, IoChatbubbles, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 import { Link, animateScroll as scroll } from "react-scroll"
 
 export default function Navbar() {
     return (
-        <nav className="navbar">
+        <nav className="navbar fixed z-10">
             <NavbarElement target="about" icon={<IoPerson size="28" />} text="About" />
-            <NavbarElement target="projects" icon={<IoTerminal size="28" />} text="Projects" />
+            <NavbarElement target="projects" icon={<IoDocumentText size="28" />} text="Projects" />
             <NavbarElement target="contact" icon={<IoChatbubbles size="28" />} text="Contact" />
             <a className="icon group" href="https://www.linkedin.com/in/felipemenesesg/" target="_blank" rel="noopener noreferrer">
                 <IoLogoLinkedin size="28" />
