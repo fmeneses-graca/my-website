@@ -10,6 +10,7 @@ export default function ProjectSection() {
 
                 <div className="flex-container">
                     <Card style="card-size-large" title="Mercedes-Benz Trucks - Data Analytics Solution" text={mercedesProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence - Presentation" text={presentationText()} />
                     <Card style="card-size-large" title="A Network Supreme Court - Data Analysis Research" text={courtProjectText()} />
                 </div>
 
@@ -33,6 +34,30 @@ function mercedesProjectText() {
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             Explore the project
+                        </span>
+                    </button>
+                </Link>
+            </div>
+        </>
+    )
+}
+
+function presentationText() {
+    return (
+        <>
+            <p className="pt-1">
+                During my MBA, I was invited by a post-graduate research group to give a lecture about any Data Analysis-related 
+                topic of my choosing. I designed and delivered a presentation about Data Analysis and Competitive Intelligence, 
+                including data analysis processes and techniques, analytics maturity models, logical data architecture, big data, 
+                and data management.
+            </p>
+
+            <div className="flex">
+                <Link href="https://www.slideshare.net/secret/biJamPRer8mgi7" passHref target="_blank" rel="noopener noreferrer">
+                    <button className="icon group">
+                        <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
+                            View the presentation
                         </span>
                     </button>
                 </Link>
