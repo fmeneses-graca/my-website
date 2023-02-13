@@ -29,7 +29,7 @@ function ExperienceSection() {
             </button>
 
             <div className="flex-col mx-auto">
-                <h1>More Aboute Felipe</h1>
+                <h1>More About Felipe</h1>
 
                 <p className="md:w-1/2 mx-auto">
                 I started my career as a researcher in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB&apos;s law school.
