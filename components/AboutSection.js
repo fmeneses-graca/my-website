@@ -26,7 +26,7 @@ export default function AboutSection() {
                         <Link href="/more-about-me" passHref>
                             <button className="icon group">
                                 <IoArrowForwardCircle size="40" />
-                                <span className="navbar-tooltip scale-100">
+                                <span className="navbar-tooltip bottom-0 left-14 scale-100">
                                     More About Me
                                 </span>
                             </button>

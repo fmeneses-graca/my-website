@@ -31,7 +31,7 @@ function mercedesProjectText() {
                 <Link href="/mercedes-benz-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
-                        <span className="navbar-tooltip scale-100">
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             Explore the project
                         </span>
                     </button>
@@ -53,7 +53,7 @@ function courtProjectText() {
                 <Link href="/supreme-court-network-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
-                        <span className="navbar-tooltip scale-100">
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             Explore the project
                         </span>
                     </button>
