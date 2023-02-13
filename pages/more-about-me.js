@@ -52,15 +52,16 @@ function ExperienceSection() {
 
                 <h1>Work Experience</h1>
                 <div className="flex-container">
+                    <Card style="card-size-large" title="Part-time Sales Associate" text={workLEGO()} />
                     <Card style="card-size-large" title="Business Analyst" text={workOAB()} />
                     <Card style="card-size-large" title="Researcher" text={workUNICEUB()} />
                 </div>
 
                 <h1>Education</h1>
                 <div className="flex-container">
-                    <Card style="card-size-large" title="Computer Programming Diploma" text={educationSeneca()} />
-                    <Card style="card-size-large" title="MBA in Information Technology" text={educationFIAP()} />
-                    <Card style="card-size-large" title="Bachelor of Laws" text={educationUNICEUB()} />
+                    <Card style="card-size-large" title="Computer Programming Diploma | 2022" text={educationSeneca()} />
+                    <Card style="card-size-large" title="MBA in Information Technology | 2020" text={educationFIAP()} />
+                    <Card style="card-size-large" title="Bachelor of Laws | 2019" text={educationUNICEUB()} />
                 </div>
             </div>
 
@@ -74,15 +75,31 @@ function ExperienceSection() {
     )
 }
 
+function workLEGO() {
+    return (
+        <>
+            <p>
+                The LEGO Group, Toronto (Canada)<br />
+                Mar 2022 - Current<br /><br />
+                Worked as a part-time sales associate during college studies. Explored customer data on CRM systems to improve customer experience. 
+                Investigated stock data using Excel to support sales strategies. Improved the average net promoter score (NPS) by achieving an individual 
+                9.9 score after 50 reviews. Generated +$60.000 by supporting the development of a sales competition.
+            </p>
+        </>
+    )
+}
+
 function workOAB() {
     return (
         <>
             <p>
-                OAB Federal Council, Brazil<br />
-                May 2019 - Jun 2021 (2 yrs 2 mos)<br />
-                {/* <ul className="pl-4 list-disc">
-                    <li></li>
-                </ul> */}
+                OAB Federal Council, Brasilia (Brazil)<br />
+                May 2019 - Jun 2021 (2 yrs 2 mos)<br /><br />
+                Worked at a National Professional Association conducting data analysis to provide insights for senior-level executives and supporting strategic decisions.
+                Extracted data from different web-based applications (CSV, JSON, XML). Implemented automated dashboards using Excel advanced functions (v-lookup, pivot tables).
+                Reduced data modelling and visualization tasks using automation tools (Power Query). Collaborated with stakeholders in calls and meetings to identify data needs
+                and develops solutions. Implemented Agile best practices and tools like Scrum, Kanban, and Trello. Saved an average of 5 hours weekly by optimizing backlog management
+                and task prioritization (Trello).
             </p>
         </>
     )
@@ -92,11 +109,12 @@ function workUNICEUB() {
     return (
         <>
             <p>
-                University Center of Brasilia, Brazil<br />
-                Aug 2015 - Jan 2019 (3 yrs 6 mos)<br />
-                {/* <ul className="pl-4 list-disc">
-                    <li></li>
-                </ul> */}
+                University Center of Brasilia - UniCEUB | Brasilia, Brazil<br />
+                Aug 2015 - Jan 2019 (3 yrs 6 mos)<br /><br />
+                Worked as a researcher analyzing data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals. 
+                Collected, investigated and analyzed data to generate insights. Assisted in the preparation of requirements and design of quantitative and qualitative research. 
+                Prepared documentation and written reports with attention to detail and deadlines. Understood and explained complex problems and solutions in presentations at 
+                meetings and events. Supported teammates and facilitated discussions to maintain a structured and productive workflow.
             </p>
         </>
     )
@@ -106,7 +124,7 @@ function educationSeneca() {
     return (
         <>
             <p>
-                2022 | Seneca College, Canada<br />
+                Seneca College | Toronto, Canada<br />
             </p>
         </>
     )
@@ -116,7 +134,7 @@ function educationFIAP() {
     return (
         <>
             <p>
-                2020 | FIAP, Brazil<br />
+                Faculty of Informatics and Administration - FIAP | Brasilia, Brazil<br />
             </p>
         </>
     )
@@ -126,7 +144,7 @@ function educationUNICEUB() {
     return (
         <>
             <p>
-                2018 | University Center of Brasilia, Brazil<br />
+                University Center of Brasilia - UniCEUB | Brasilia, Brazil<br />
             </p>
         </>
     )

@@ -23,7 +23,7 @@ function mercedesProjectText() {
     return (
         <>
             <p className="pt-1">
-                In this MBA project, I created a Business Intelligence solution for Mercedes-Benz Trucks to drive data monetization.
+                In this MBA project, I designed a Business Intelligence solution for Mercedes-Benz Trucks to drive data monetization.
                 The solution consists of a website that provides road contractors and public transportation agencies with insights about
                 road infrastructure to optimize construction investments.
             </p>
@@ -70,8 +70,8 @@ function courtProjectText() {
     return (
         <>
             <p className="pt-1">
-                In this LL.B. project, I published a quantitative analysis that examined +200 cases according
-                to models of judicial behaviour on how international and foreign precedents affected the Brazilian Supreme Court&apos;s rulings.
+                In this LL.B. project, I conducted a data analysis that examined +200 cases according to models of judicial behaviour 
+                on how international and foreign precedents affected the Brazilian Supreme Court&apos;s rulings.
             </p>
 
             <div className="flex">
