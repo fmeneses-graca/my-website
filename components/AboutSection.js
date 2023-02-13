@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import pptFramework from '../public/PPT Framework.png'
 import Link from 'next/link'
 import { IoArrowForwardCircle } from "react-icons/io5"
 
@@ -9,19 +11,17 @@ export default function AboutSection() {
                     Nice to meet you, I&apos;m Felipe!
                 </h1>
 
+                <Image src={pptFramework} alt="People Process Technology Framework" width='400' className="mx-auto my-3" />
+
+                <p className="md:w-1/2 md:mx-auto">
+                    I&apos;m a Business and Data Analyst with a passion for working at the intersection of people, processes, and technology.
+                    I help organizations reach their goals by making these three elements work together toward shared objectives using visual and analytical tools.
+                    I have more than five years of experience analyzing data and designing solutions that make a lasting impact on stakeholders.
+                </p>
+
+                <br />
+
                 <div className="md:w-1/2 md:mx-auto">
-                    <p>I have more than 5 years of experience analyzing data and providing meaningful insights to help stakeholders make informed decisions. That means:</p>
-                    <br />
-
-                    <ul className="pl-4 list-disc">
-                        <li>Collecting, modelling, and visualizing data using Excel, Power BI, and programming languages (SQL, Python, and JavaScript);</li>
-                        <li>Maintaining documentation, writing reports, and delivering presentations to explain data analysis processes and findings;</li>
-                        <li>Understanding how to work with Data Structures, Databases, Data Warehousing, Big Data, Web Applications and Cloud Computing;</li>
-                        <li>Communicating with cross-functional teams using Agile techniques (Scrum, Kanban, Trello, Jira) to identify data needs and design solutions.</li>
-                    </ul>
-
-                    <br />
-
                     <div className="flex">
                         <Link href="/more-about-me" passHref>
                             <button className="icon group">
