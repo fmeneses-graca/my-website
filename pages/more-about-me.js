@@ -32,7 +32,7 @@ function ExperienceSection() {
                 <h1>More Aboute Felipe</h1>
 
                 <p className="md:w-1/2 mx-auto">
-                I started my career as a researcher in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB's law school.
+                I started my career as a researcher in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB&apos;s law school.
                     <br /><br />
                     After three years as a researcher, I was invited to work as a business intelligence analyst at a professional association, where I conducted data analysis to provide insights for senior-level executives and support strategic decisions. During this period, I also studied towards an MBA in Information Technology at FIAP.
                     <br /><br />
