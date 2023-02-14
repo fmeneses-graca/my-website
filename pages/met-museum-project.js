@@ -107,8 +107,8 @@ function MBAProject() {
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 2. Data fetching using SWR.</h3>
                 <p className="md:w-1/2 md:mx-auto">
-                    After building a basic UI, I configured a fetcher (SWR) to read data in JSON format from the MET Museum's publicly available API.
-                    I used JavaScript's async/await syntax and prepared the fetcher for error handling to ensure an eventual API failure would not impact
+                    After building a basic UI, I configured a fetcher (SWR) to read data in JSON format from the MET Museum&apos;s publicly available API.
+                    I used JavaScript&apos;s async/await syntax and prepared the fetcher for error handling to ensure an eventual API failure would not impact
                     the application. After that, I used SWR React Hooks to fetch data from the API into components (artwork cards) and pages (search results page)
                     when the user requests.
                 </p>
@@ -118,7 +118,7 @@ function MBAProject() {
                 <p className="md:w-1/2 md:mx-auto">
                     Having UI and a data fetcher ready, I used Jotai to manage the state of different components. For example, when a user clicks on “favourite”
                     to save a particular artwork to their favourite list, Jotai manages that information to ensure the state of that specific artwork component is
-                    considered a favourite for that user. In this case, Jotai allows the artwork to be rendered on that user's favourites page, where it can also be
+                    considered a favourite for that user. In this case, Jotai allows the artwork to be rendered on that user&apos;s favourites page, where it can also be
                     removed if the user changes their mind.
                 </p>
                 <br />
@@ -128,7 +128,7 @@ function MBAProject() {
                     After managing the state of the React components, I set up a user service module and an API to ensure that users can register with a username and
                     password, log in, and log out of the website. The user service module employs MongoDB to connect with a database and Mongoose to draw a NoSQL schema
                     for that database, which includes a unique username (string), password (string), favourites (array of strings), and history (array of strings). The
-                    user service also supports CRUD functions (create, remove, update, delete) to handle the routes defined in the API's server (get, post, put, delete).
+                    user service also supports CRUD functions (create, remove, update, delete) to handle the routes defined in the API&apos;s server (get, post, put, delete).
                     Additionally, the passwords are hashed before being stored in the database, thanks to bcrypt.js.
                 </p>
                 <br />
