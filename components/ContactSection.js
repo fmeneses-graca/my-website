@@ -136,7 +136,10 @@ export default function ContactSection() {
                     {showErrorMessage && <div className="flex justify-start text-red-300 pt-4">There was an error while sending your message.</div>}
                 </form>
                 
-                <p className="md:w-1/2 mx-auto"><br />You can reach me using the form or sending an email to felipe.meneses96@gmail.com</p>
+                <p className="md:w-1/2 mx-auto pl-4">
+                    <br />
+                    You can reach me using the form or sending an email to felipe.meneses96@gmail.com
+                </p>
             </div>
 
         </div>
