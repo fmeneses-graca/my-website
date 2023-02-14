@@ -34,7 +34,7 @@ function LLBProject() {
                 </button>
 
                 <h1 className="md:w-1/2 mx-auto">
-                    A Network Supreme Court Quantitative Research - LLB Project
+                    A Network Supreme Court - Data Analysis Research
                 </h1>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Summary:</h2>
