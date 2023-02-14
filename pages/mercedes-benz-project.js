@@ -39,7 +39,7 @@ function MBAProject() {
                 </button>
 
                 <h1 className="md:w-1/2 mx-auto">
-                    Mercedes-Benz Trucks Data Analytics - MBA Project
+                    Mercedes-Benz Trucks - Data Analytics Solution
                 </h1>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Summary:</h2>
