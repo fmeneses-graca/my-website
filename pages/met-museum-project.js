@@ -157,15 +157,13 @@ function MBAProject() {
                     <br />
                     <ul className="pl-4 list-disc">
                         <li>Web Development</li>
-                        <li>User Interface</li>
+                        <li>User Interface (UI)</li>
                         <li>API</li>
                         <li>React</li>
                         <li>Next.js</li>
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>MongoDB</li>
-                        <li></li>
-                        <li></li>
                     </ul>
                 </div>
 
