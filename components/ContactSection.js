@@ -97,6 +97,8 @@ export default function ContactSection() {
 
     return (
         <div>
+            <h1 className="text-2xl font-bold">Contact</h1>
+
             <div id="contact" className="flex-container mb-10 md:mx-auto ">
                 <form onSubmit={handleSubmit} className="flex flex-col px-8 py-8 md:w-3/5 rounded-lg bg-secondary bg-opacity-80 border border-slate-500">
 
@@ -133,7 +135,10 @@ export default function ContactSection() {
                     {showSuccessMessage && <div className="flex justify-start text-green-300 pt-4">Message sent with success!</div>}
                     {showErrorMessage && <div className="flex justify-start text-red-300 pt-4">There was an error while sending your message.</div>}
                 </form>
+                
+                <p className="md:w-1/2 md:mx-auto"><br />You can reach me using the form or sending an email to felipe.meneses96@gmail.com</p>
             </div>
+
         </div>
     )
 }
