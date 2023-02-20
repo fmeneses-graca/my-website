@@ -31,7 +31,7 @@ function ExperienceSection() {
             <div className="flex-col mx-auto">
                 <h1>More About Felipe</h1>
                 <p className="md:w-1/2 mx-auto">
-                    I started my career as a researcher in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB&apos;s law school.
+                    I started my career as a data research analyst in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB&apos;s law school.
                     <br /><br />
                     After three years as a researcher, I was invited to work as a business analyst at a professional association, where I conducted data analysis to design solutions for senior-level executives and support strategic decisions. During this period, I also studied towards an MBA in Information Technology at FIAP.
                     <br /><br />
@@ -53,8 +53,8 @@ function ExperienceSection() {
                 <h1>Work Experience</h1>
                 <div className="flex-container">
                     <Card style="card-size-large" title="Part-time Sales Associate" text={workLEGO()} />
-                    <Card style="card-size-large" title="Business Analyst" text={workOAB()} />
-                    <Card style="card-size-large" title="Researcher" text={workUNICEUB()} />
+                    <Card style="card-size-large" title="Business Intelligence Analyst" text={workOAB()} />
+                    <Card style="card-size-large" title="Data Research Analyst" text={workUNICEUB()} />
                 </div>
 
                 <h1>Education</h1>

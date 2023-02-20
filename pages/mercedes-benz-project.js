@@ -90,6 +90,9 @@ function MBAProject() {
                     and pain relievers to road contractors and agencies considering their processes, pain points, and gain opportunities.
                 </p>
                 <Image src={step4} alt="Value Proposition Canvas" layout='fill' className="md:w-1/2 mx-auto my-3" />
+                <p className="md:w-1/2 md:mx-auto">
+                    (translation in progress)
+                </p>
                 <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 5. Business Model Canvas.</h3>
@@ -100,6 +103,9 @@ function MBAProject() {
                     channels, partners, activities, resources, cost structure, and revenue streams.
                 </p>
                 <Image src={step5} alt="Business Model Canvas" layout='fill' className="md:w-1/2 mx-auto my-3" />
+                <p className="md:w-1/2 md:mx-auto">
+                    (translation in progress)
+                </p>
                 <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 6. Prototyping.</h3>
@@ -112,6 +118,9 @@ function MBAProject() {
                 <Image src={step62} alt="Website prototype subscription plans" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
                 <Image src={step63} alt="Website prototype analytics dashboard" layout='fill' className="md:w-1/2 mx-auto my-3" />
+                <p className="md:w-1/2 md:mx-auto">
+                    (translation in progress)
+                </p>
                 <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 7. Presentation.</h3>
@@ -122,6 +131,9 @@ function MBAProject() {
                 <Image src={step71} alt="Presentation slides" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
                 <Image src={step72} alt="Presentation video" layout='fill' className="md:w-1/2 mx-auto my-3" />
+                <p className="md:w-1/2 md:mx-auto">
+                    (translation in progress)
+                </p>
                 <br />
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Skills developed:</h2>

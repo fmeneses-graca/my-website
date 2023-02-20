@@ -9,8 +9,8 @@ export default function ProjectSection() {
                 <h1>Projects</h1>
 
                 <div className="flex-container">
+                    <Card style="card-size-large" title="MET Museum Explorer - Website and Fetch API" text={metProjectText()} />
                     <Card style="card-size-large" title="Mercedes-Benz Trucks - Data Analytics Solution" text={mercedesProjectText()} />
-                    <Card style="card-size-large" title="MET Museum Explorer - Web Development" text={metProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and Competitive Intelligence - Presentation" text={presentationText()} />
                     <Card style="card-size-large" title="A Network Supreme Court - Data Analysis Research" text={courtProjectText()} />
                 </div>
