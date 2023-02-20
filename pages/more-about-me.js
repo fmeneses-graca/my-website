@@ -33,7 +33,7 @@ function ExperienceSection() {
                 <p className="md:w-1/2 mx-auto">
                     I started my career as a data research analyst in Brazil, where I learned how to analyze data using rigorous standards to produce scientific findings, reports, and publications for legal and social sciences journals at UniCEUB&apos;s law school.
                     <br /><br />
-                    After three years as a researcher, I was invited to work as a business analyst at a professional association, where I conducted data analysis to design solutions for senior-level executives and support strategic decisions. During this period, I also studied towards an MBA in Information Technology at FIAP.
+                    After three years as a researcher, I was invited to work as a business intelligence analyst at a professional association, where I conducted data analysis to design solutions for senior-level executives and support strategic decisions. During this period, I also studied towards an MBA in Information Technology at FIAP.
                     <br /><br />
                     After two years, in 2020, I moved to Canada to study Computer Programming at Seneca College. I graduated in December 2022, and I am currently seeking an opportunity to join a friendly team and help them achieve their goals through data analysis and solution design.
                 </p>
