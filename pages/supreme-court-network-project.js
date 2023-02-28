@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image'
 import step3 from '../public/court/step3.png'
-import finding1 from '../public/court/finding1.jpg'
+import finding1 from '../public/court/finding1.png'
 import finding2 from '../public/court/finding2.png'
 import finding3 from '../public/court/finding3.png'
 import { useRouter } from 'next/router'

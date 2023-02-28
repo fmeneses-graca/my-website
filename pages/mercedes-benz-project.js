@@ -57,7 +57,7 @@ function MBAProject() {
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 1. Exploration.</h3>
                 <p className="md:w-1/2 md:mx-auto">
-                    We explored a sample of the database provided by the client, Mercedes-Benz Trucks, using Google Sheets.
+                    We explored a sample of the database provided by the client, Mercedes-Benz Trucks.
                     We found that the data contained useful information about vehicle position (date, hour, minute, longitude, latitude),
                     vehicle performance (fuel consumption, break usage, speed, moving time, stop time), and vehicle maintenance (type of service,
                     service unit, priority) related to tours made by trucks and buses in Brazilian roads.
