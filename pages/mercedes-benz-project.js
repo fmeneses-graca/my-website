@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import step1 from '../public/mercedes/step1.png'
+import step2 from '../public/mercedes/step2.png'
 import step3 from '../public/mercedes/step3.png'
 import step4 from '../public/mercedes/step4.png'
 import step5 from '../public/mercedes/step5.png'
@@ -69,9 +70,11 @@ function MBAProject() {
                 <p className="md:w-1/2 md:mx-auto">
                     We met online for a virtual coffee to brainstorm and decide what valuable solution we could drive based on that data.
                     After a feel rounds of healthy discussion and lots of coffee, the team filtered many great ideas into one.
-                    We had the idea to develop a website where Mercedes-Benz Trucks could provide road contractors and public transportation
+                    We had the idea to develop a dashboard where Mercedes-Benz Trucks could provide road contractors and public transportation
                     agencies with insights about how the road infrastructure impacts truck performance to optimize construction investments.
+                    We used Power BI to visualize the data to ensure the idea was viable.
                 </p>
+                <Image src={step2} alt="Excel spreadsheet" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 3. Market research.</h3>
