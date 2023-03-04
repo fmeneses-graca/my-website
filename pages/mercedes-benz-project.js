@@ -133,14 +133,13 @@ function MBAProject() {
                     <br />
                     <ul className="pl-4 list-disc">
                         <li>Data Analysis</li>
-                        <li>Google Sheets</li>
+                        <li>Power BI</li>
                         <li>Brainstorming</li>
                         <li>Market Research</li>
                         <li>Value Proposition Canvas</li>
                         <li>Business Model Canvas</li>
                         <li>Prototyping</li>
                         <li>Presentation</li>
-                        <li>Google Slides</li>
                     </ul>
                 </div>
 
