@@ -113,7 +113,7 @@ function LLBProject() {
                             <td>Level 2</td>
                             <td>
                                 (i) Elements of Level 1; and <br />
-                                (ii) Identification of relevant facts and grounds; or <br />
+                                (ii) Identification of relevant facts and grounds; OR <br />
                                 (ii) Comparison between the foreign precedent and the case under examination.
                             </td>
                         </tr>
@@ -121,7 +121,7 @@ function LLBProject() {
                             <td>Level 3</td>
                             <td>
                                 (i) Elements of Level 1; and <br />
-                                (ii) Identification of relevant facts and/or grounds; and <br />
+                                (ii) Identification of relevant facts and/or grounds; AND <br />
                                 (iii) Comparison between the foreign precedent and the case under examination.
                             </td>
                         </tr>
