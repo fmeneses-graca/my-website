@@ -17,8 +17,6 @@ export default function AboutSection() {
                     5+ years of experience helping companies transform raw data into actionable information (reports, dashboards, presentations) using Excel, Power BI, SQL, and Python.
                 </p>
 
-                <br />
-
                 {/* <div className="md:w-1/2 md:mx-auto">
                     <div className="flex">
                         <Link href="/more-about-me" passHref>
