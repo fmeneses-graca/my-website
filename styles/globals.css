@@ -72,7 +72,7 @@
         md:bottom-0 md:left-14
         rounded-md shadow-md bg-gray-900 
         text-white text-xs font-bold 
-        transition-all duration-100 scale-0 origin-left 
+        transition-all duration-100 scale-0 origin-left
     }
 
     .skill-element {

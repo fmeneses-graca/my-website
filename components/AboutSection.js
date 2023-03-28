@@ -8,20 +8,18 @@ export default function AboutSection() {
         <div id="about" className="section-container">
             <div className="flex-col">
                 <h1 className="mx-auto">
-                    Nice to meet you, I&apos;m Felipe!
+                    Felipe Meneses Graca
                 </h1>
 
-                <Image src={pptFramework} alt="People Process Technology Framework" width='400' className="mx-auto my-3" />
+                {/* <Image src={pptFramework} alt="People Process Technology Framework" width='400' className="mx-auto my-3" /> */}
 
                 <p className="md:w-1/2 md:mx-auto">
-                    I&apos;m passionate about working at the intersection of people, processes, and technology. 
-                    I help organizations reach their goals by making these three elements work together toward shared objectives using visual and analytical tools. 
-                    I have more than five years of experience analyzing data and enabling innovative solutions that make a lasting impact on stakeholders.
+                    5+ years of experience helping companies transform raw data into actionable information (reports, dashboards, presentations) using Excel, Power BI, SQL, and Python.
                 </p>
 
                 <br />
 
-                <div className="md:w-1/2 md:mx-auto">
+                {/* <div className="md:w-1/2 md:mx-auto">
                     <div className="flex">
                         <Link href="/more-about-me" passHref>
                             <button className="icon group">
@@ -32,7 +30,7 @@ export default function AboutSection() {
                             </button>
                         </Link>
                     </div>
-                </div>
+                </div> */}
                 <br />
             </div>
         </div>
