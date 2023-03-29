@@ -2,6 +2,7 @@ import Image from 'next/image'
 import pptFramework from '../public/PPT Framework.png'
 import Link from 'next/link'
 import { IoArrowForwardCircle } from "react-icons/io5"
+import HorizontalLine from "./HorizontalLine"
 
 export default function AboutSection() {
     return (
@@ -11,9 +12,10 @@ export default function AboutSection() {
                     Felipe Meneses Graca
                 </h1>
 
+                <HorizontalLine />
                 {/* <Image src={pptFramework} alt="People Process Technology Framework" width='400' className="mx-auto my-3" /> */}
 
-                <div className="md:w-1/2 md:mx-auto text-center">
+                <div className="md:w-1/2 md:mx-auto text-center mt-10">
                     <h3 className="my-0 pb-2">Data Analyst</h3>
                     <p className="pb-2">Excel | Power BI | SQL | Python | JavaScript</p>
                 </div>

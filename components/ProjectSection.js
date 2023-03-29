@@ -11,9 +11,9 @@ export default function ProjectSection() {
     return (
         <div id="projects" className="section-container">
             <div className="flex-col mx-auto">
-                <h1>Projects</h1>
+                <h2>Projects</h2>
 
-                <div className="flex-container">
+                <div className="flex-container py-4">
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
