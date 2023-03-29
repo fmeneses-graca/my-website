@@ -1,6 +1,11 @@
 import Card from "./card"
 import Link from 'next/link'
+import Image from 'next/image'
 import { IoArrowForwardCircle } from "react-icons/io5"
+import userFavouritesPage from '../public/met/userFavouritesPage.png'
+import step2 from '../public/mercedes/step2.png'
+import presentation from '../public/presentation/presentation.png'
+import finding2 from '../public/court/finding2.png'
 
 export default function ProjectSection() {
     return (
@@ -9,10 +14,10 @@ export default function ProjectSection() {
                 <h1>Projects</h1>
 
                 <div className="flex-container">
-                    <Card style="card-size-large" title="MET Museum API Explorer - Website" text={metProjectText()} />
-                    <Card style="card-size-large" title="Mercedes-Benz Trucks - Business Intelligence Solution" text={mercedesProjectText()} />
-                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence - Presentation" text={presentationText()} />
-                    <Card style="card-size-large" title="A Network Supreme Court - Data Analysis Research" text={courtProjectText()} />
+                    <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
+                    <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
+                    <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                 </div>
 
             </div>
@@ -24,10 +29,10 @@ function metProjectText() {
     return (
         <>
             <p className="pt-1">
-                In this college project, I developed a full-stack web application that allows users to explore artworks from The Metropolitan Museum of Art - MET Museum database.
-                The website fetches data from the MET Museum&apos;s publicly available API and organizes data so users can register
-                and log in safely, search for artworks using multiple criteria, view their search history, and save their favorite artworks.
+                Full-stack web application that pulls data from the MET Museum API and allows users to explore artworks.
             </p>
+
+            <Image src={userFavouritesPage} alt="User Favourites page" className="pt-4" />
 
             <div className="flex">
                 <Link href="/met-museum-project" passHref>
@@ -47,10 +52,10 @@ function mercedesProjectText() {
     return (
         <>
             <p className="pt-1">
-                In this MBA project, I designed a Business Intelligence solution for Mercedes-Benz Trucks to drive data monetization.
-                The solution consists of a website that provides road contractors and public transportation agencies with insights about
-                road infrastructure to optimize construction investments.
+                Created a dashboard with Power BI to gain insight into how road defects impacted vehicle performance.
             </p>
+
+            <Image src={step2} alt="Excel spreadsheet" className="pt-4"/>
 
             <div className="flex">
                 <Link href="/mercedes-benz-project" passHref>
@@ -70,11 +75,10 @@ function presentationText() {
     return (
         <>
             <p className="pt-1">
-                During my MBA, I was invited by a post-graduate research group to give a lecture about any Data Analysis-related
-                topic of my choosing. I designed and delivered a presentation about Data Analysis and Competitive Intelligence,
-                including data analysis processes and techniques, analytics maturity models, logical data architecture, big data,
-                and data management.
+                Presentation about data analysis processes and techniques, analytics maturity models, logical data architecture, big data, and data management.
             </p>
+
+            <Image src={presentation} alt="Presentation" layout='fill' className="pt-4" />
 
             <div className="flex">
                 <Link href="/presentation-project" passHref>
@@ -94,9 +98,10 @@ function courtProjectText() {
     return (
         <>
             <p className="pt-1">
-                In this LLB project, I conducted a data analysis that examined +200 cases according to models of judicial behaviour
-                on how international and foreign precedents affected the Brazilian Supreme Court&apos;s rulings.
+                Research paper that explains how 349 foreign precedents affected 224 court decisions.
             </p>
+
+            <Image src={finding2} alt="Graphic" layout='fill' className="pt-4" />
 
             <div className="flex">
                 <Link href="/supreme-court-network-project" passHref>

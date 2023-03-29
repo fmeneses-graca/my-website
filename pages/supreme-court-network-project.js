@@ -34,22 +34,22 @@ function LLBProject() {
                 </button>
 
                 <h1 className="md:w-1/2 mx-auto">
-                    A Network Supreme Court - Data Analysis Research
+                Data Analysis Research - UniCEUB
                 </h1>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Summary:</h2>
                 <p className="md:w-1/2 md:mx-auto">
-                    This project was developed in 2019, my final year of law school at UniCEUB (Brazil),
+                    {/* This project was developed in 2019, my final year of law school at UniCEUB (Brazil),
                     while I was a member of the research group “Constitutional Courts and Democracy.”
-                    The group specialized in employing empirical research methodologies to explain the decision process of Constitutional Courts.
+                    The group specialized in employing empirical research methodologies to explain the decision process of Constitutional Courts. */}
                     <br />
                     <br />
-                    For this project, I partnered with a professor to define a quantitative analysis methodology, collect and analyze data,
+                    In this project, I partnered with a professor to define a quantitative analysis methodology, collect and analyze data,
                     and communicate the final results of the empirical study section of the article “A network Supreme Court?
                     How, when, and with which level of argumentative engagement does the Brazilian Supreme Court deal with foreign precedents?”
                 </p>
 
-                <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Article Abstract:</h2>
+                {/* <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Article Abstract:</h2>
                 <p className="md:w-1/2 md:mx-auto">
                     The article aims to examine how the Brazilian Supreme Court (“Brazilian Court” or “the Court”) deals with the permeability
                     between domestic Constitutional Law, Comparative Constitutional Law and International human rights Law. It seeks to assess
@@ -58,7 +58,7 @@ function LLBProject() {
                     behaviour related to the operation with foreign precedents and, based on such models, develops an empirical study that analyzes:
                     (i) if the Brazilian Court uses foreign precedents in its decision-making process; (ii) which are the main foreign or international
                     courts whose precedents are referenced by the Court; (iii) how deep is the Court&apos;s reasoning based on these precedents.
-                </p>
+                </p> */}
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Process:</h2>
 
