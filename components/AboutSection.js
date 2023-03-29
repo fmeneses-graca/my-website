@@ -9,7 +9,7 @@ export default function AboutSection() {
         <div id="about" className="section-container">
             <div className="flex-col">
                 <h1 className="mx-auto">
-                    Felipe Meneses Graca
+                    Felipe Meneses
                 </h1>
 
                 <HorizontalLine />
