@@ -13,9 +13,10 @@ export default function AboutSection() {
 
                 {/* <Image src={pptFramework} alt="People Process Technology Framework" width='400' className="mx-auto my-3" /> */}
 
-                <p className="md:w-1/2 md:mx-auto">
-                    5+ years of experience helping companies transform raw data into actionable information (reports, dashboards, presentations) using Excel, Power BI, SQL, and Python.
-                </p>
+                <div className="md:w-1/2 md:mx-auto text-center">
+                    <h3 className="my-0 pb-2">Data Analyst</h3>
+                    <p className="pb-2">Excel | Power BI | SQL | Python | JavaScript</p>
+                </div>
 
                 {/* <div className="md:w-1/2 md:mx-auto">
                     <div className="flex">
