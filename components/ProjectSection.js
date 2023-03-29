@@ -5,7 +5,7 @@ import { IoArrowForwardCircle } from "react-icons/io5"
 import userFavouritesPage from '../public/met/userFavouritesPage.png'
 import step2 from '../public/mercedes/step2.png'
 import presentation from '../public/presentation/presentation.png'
-import finding2 from '../public/court/finding2.png'
+import frontPage from '../public/court/frontPage.png'
 
 export default function ProjectSection() {
     return (
@@ -15,9 +15,9 @@ export default function ProjectSection() {
 
                 <div className="flex-container">
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
-                    <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
-                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
+                    <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
                 </div>
 
             </div>
@@ -52,10 +52,10 @@ function mercedesProjectText() {
     return (
         <>
             <p className="pt-1">
-                Created a dashboard with Power BI to gain insight into how road defects impacted vehicle performance.
+                Power BI dashboard that generates insight into how road defects impacted vehicle performance.
             </p>
 
-            <Image src={step2} alt="Excel spreadsheet" className="pt-4"/>
+            <Image src={step2} alt="Excel spreadsheet" className="pt-4" />
 
             <div className="flex">
                 <Link href="/mercedes-benz-project" passHref>
@@ -101,7 +101,7 @@ function courtProjectText() {
                 Research paper that explains how 349 foreign precedents affected 224 court decisions.
             </p>
 
-            <Image src={finding2} alt="Graphic" layout='fill' className="pt-4" />
+            <Image src={frontPage} alt="Graphic" layout='fill' className="pt-4" />
 
             <div className="flex">
                 <Link href="/supreme-court-network-project" passHref>
