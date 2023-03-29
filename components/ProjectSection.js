@@ -52,7 +52,7 @@ function mercedesProjectText() {
     return (
         <>
             <p className="pt-1">
-                Power BI dashboard that generates insight into how road defects impacted vehicle performance.
+            Power BI dashboard that generates insight into how road infrastructure impacts vehicle performance.
             </p>
 
             <Image src={step2} alt="Excel spreadsheet" className="pt-4" />
