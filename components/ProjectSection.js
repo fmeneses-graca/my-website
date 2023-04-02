@@ -6,7 +6,7 @@ import userFavouritesPage from '../public/met/userFavouritesPage.png'
 import step2 from '../public/mercedes/step2.png'
 import presentation from '../public/presentation/presentation.png'
 import frontPage from '../public/court/frontPage.png'
-import cover from '../public/spotify/cover.png'
+import cover from '../public/spotify/Cover.png'
 
 export default function ProjectSection() {
     return (
