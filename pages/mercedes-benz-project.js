@@ -43,8 +43,7 @@ function MBAProject() {
                     Data Analytics Project - Mercedes-Benz Trucks
                 </h1>
 
-                <Image src={step2} alt="Excel spreadsheet" layout='fill' className="md:w-1/2 mx-auto my-3" />
-                <br />
+                <iframe className="mx-auto" title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNTc2ZjdmOWMtMWFlYi00MDYzLThlOWEtMzAwM2Y1ZDY3MjY1IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
 
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Summary:</h2>
                 <p className="md:w-1/2 md:mx-auto">
@@ -102,6 +101,8 @@ function MBAProject() {
                 <Image src={step61} alt="Website prototype homepage" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
                 <Image src={step62} alt="Website prototype subscription plans" layout='fill' className="md:w-1/2 mx-auto my-3" />
+                <br />
+                <Image src={step2} alt="Excel spreadsheet" layout='fill' className="md:w-1/2 mx-auto my-3" />
                 <br />
 
                 <h3 className="md:w-1/2 md:mx-auto text-left pl-0">Step 7. Presentation.</h3>

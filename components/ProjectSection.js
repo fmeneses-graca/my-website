@@ -6,6 +6,7 @@ import userFavouritesPage from '../public/met/userFavouritesPage.png'
 import step2 from '../public/mercedes/step2.png'
 import presentation from '../public/presentation/presentation.png'
 import frontPage from '../public/court/frontPage.png'
+import cover from '../public/spotify/cover.png'
 
 export default function ProjectSection() {
     return (
@@ -14,6 +15,7 @@ export default function ProjectSection() {
                 <h2>Projects</h2>
 
                 <div className="flex-container py-4">
+                    <Card style="card-size-large" title="Spotify Hitmakers Data Analysis" text={spotifyProjectText()} />
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
@@ -109,6 +111,29 @@ function courtProjectText() {
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             Explore the research
+                        </span>
+                    </button>
+                </Link>
+            </div>
+        </>
+    )
+}
+
+function spotifyProjectText() {
+    return (
+        <>
+            <p className="pt-1">
+                Who are the Top 100 Spotify Artists - based on their Top 10 Songs - and where do they come from?
+            </p>
+
+            <Image src={cover} alt="Graphic" layout='fill' className="pt-4" />
+
+            <div className="flex">
+                <Link href="/spotify-project" passHref>
+                    <button className="icon group">
+                        <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
+                            Explore the project
                         </span>
                     </button>
                 </Link>

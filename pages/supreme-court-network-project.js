@@ -37,13 +37,10 @@ function LLBProject() {
                 Data Analysis Research - UniCEUB
                 </h1>
 
+                <iframe className="mx-auto" title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYjk1NTBlZGYtNTRkYi00MmZiLTg2MTItNzM3ZTU5NjVmMjU5IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+
                 <h2 className="md:w-1/2 md:mx-auto text-left pl-0">Summary:</h2>
                 <p className="md:w-1/2 md:mx-auto">
-                    {/* This project was developed in 2019, my final year of law school at UniCEUB (Brazil),
-                    while I was a member of the research group “Constitutional Courts and Democracy.”
-                    The group specialized in employing empirical research methodologies to explain the decision process of Constitutional Courts. */}
-                    <br />
-                    <br />
                     In this project, I partnered with a professor to define a quantitative analysis methodology, collect and analyze data,
                     and communicate the final results of the empirical study section of the article “A network Supreme Court?
                     How, when, and with which level of argumentative engagement does the Brazilian Supreme Court deal with foreign precedents?”
