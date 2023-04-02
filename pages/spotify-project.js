@@ -29,7 +29,7 @@ function SpotifyProject() {
                 </button>
 
                 <div className="md:w-1/2 mx-auto">
-                    <h1>Spotify Hitmakers Data Analysis</h1>
+                    <h1>Data Analysis Project - Spotify Hitmakers</h1>
                     <p className="text-center">Who are the Top 100 Spotify Artists - based on their Top 10 Songs - and where do they come from?</p>
                     <br />
                 </div>

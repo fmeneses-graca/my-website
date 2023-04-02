@@ -15,7 +15,7 @@ export default function ProjectSection() {
                 <h2>Projects</h2>
 
                 <div className="flex-container py-4">
-                    <Card style="card-size-large" title="Spotify Hitmakers Data Analysis" text={spotifyProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis Project - Spotify Hitmakers" text={spotifyProjectText()} />
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
@@ -27,17 +27,23 @@ export default function ProjectSection() {
     )
 }
 
-function metProjectText() {
+function spotifyProjectText() {
     return (
         <>
             <p className="pt-1">
-                Full-stack web application that pulls data from the MET Museum API and allows users to explore artworks.
+                Who are the Top 100 Spotify Artists - based on their Top 10 Songs - and where do they come from?
             </p>
 
-            <Image src={userFavouritesPage} alt="User Favourites page" className="pt-4" />
+            <Image src={cover} alt="Graphic" layout='fill' className="pt-4" />
+
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">SQL</p>
+                <p className="skill-element">Excel</p>
+                <p className="skill-element">Power BI</p>
+            </div>
 
             <div className="flex">
-                <Link href="/met-museum-project" passHref>
+                <Link href="/spotify-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">
@@ -54,10 +60,15 @@ function mercedesProjectText() {
     return (
         <>
             <p className="pt-1">
-            Power BI dashboard that generates insight into how road infrastructure impacts vehicle performance.
+                Power BI dashboard that generates insight into how road infrastructure impacts vehicle performance.
             </p>
 
             <Image src={step2} alt="Excel spreadsheet" className="pt-4" />
+
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">Excel</p>
+                <p className="skill-element">Power BI</p>
+            </div>
 
             <div className="flex">
                 <Link href="/mercedes-benz-project" passHref>
@@ -65,29 +76,6 @@ function mercedesProjectText() {
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             Explore the project
-                        </span>
-                    </button>
-                </Link>
-            </div>
-        </>
-    )
-}
-
-function presentationText() {
-    return (
-        <>
-            <p className="pt-1">
-                Presentation about data analysis processes and techniques, analytics maturity models, logical data architecture, big data, and data management.
-            </p>
-
-            <Image src={presentation} alt="Presentation" layout='fill' className="pt-4" />
-
-            <div className="flex">
-                <Link href="/presentation-project" passHref>
-                    <button className="icon group">
-                        <IoArrowForwardCircle size="40" />
-                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
-                            View the presentation
                         </span>
                     </button>
                 </Link>
@@ -105,6 +93,11 @@ function courtProjectText() {
 
             <Image src={frontPage} alt="Graphic" layout='fill' className="pt-4" />
 
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">Excel</p>
+                <p className="skill-element">Power BI</p>
+            </div>
+
             <div className="flex">
                 <Link href="/supreme-court-network-project" passHref>
                     <button className="icon group">
@@ -119,17 +112,51 @@ function courtProjectText() {
     )
 }
 
-function spotifyProjectText() {
+
+function presentationText() {
     return (
         <>
             <p className="pt-1">
-                Who are the Top 100 Spotify Artists - based on their Top 10 Songs - and where do they come from?
+                Presentation about data analysis processes and techniques, analytics maturity models, logical data architecture, big data, and data management.
             </p>
 
-            <Image src={cover} alt="Graphic" layout='fill' className="pt-4" />
+            <Image src={presentation} alt="Presentation" layout='fill' className="pt-4" />
+
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">PowerPoint</p>
+            </div>
 
             <div className="flex">
-                <Link href="/spotify-project" passHref>
+                <Link href="/presentation-project" passHref>
+                    <button className="icon group">
+                        <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
+                            View the presentation
+                        </span>
+                    </button>
+                </Link>
+            </div>
+        </>
+    )
+}
+
+function metProjectText() {
+    return (
+        <>
+            <p className="pt-1">
+                Full-stack web application that pulls data from the MET Museum API and allows users to explore artworks.
+            </p>
+
+            <Image src={userFavouritesPage} alt="User Favourites page" className="pt-4" />
+
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">JavaScript</p>
+                <p className="skill-element">MongoDB</p>
+                <p className="skill-element">REST API</p>
+            </div>
+
+            <div className="flex">
+                <Link href="/met-museum-project" passHref>
                     <button className="icon group">
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">

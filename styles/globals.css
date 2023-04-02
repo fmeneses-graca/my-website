@@ -92,7 +92,7 @@
     }
 
     .skill-element {
-        @apply px-3 py-2 m-2 rounded 
+        @apply px-2 py-2 m-2 rounded 
         bg-secondary bg-opacity-80 border border-slate-600
         shadow-lg  shadow-gray-800   
         text-lg text-white 
