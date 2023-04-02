@@ -58,7 +58,7 @@ function SpotifyProject() {
                 </pre>
 
                 <p className="md:w-1/2 md:mx-auto">
-                    I also found a dataset containing artists' metadata, including their city of origin.
+                    I also found a dataset containing artists&apos; metadata, including their city of origin.
                     It included 3 cities instead of one, and various fields were NULL. I adjusted that to ensure there was only one city per artist.
                 </p>
                 <br />
@@ -68,12 +68,12 @@ function SpotifyProject() {
                         SELECT * FROM Spotify_Artist_Metadata;<br />
                         <br />
                         -- Adjust: change n/a to NULL, set one city instead of 3<br />
-                        UPDATE Spotify_Artist_Metadata SET city_1 = NULL WHERE city_1 = 'n/a';<br />
-                        UPDATE Spotify_Artist_Metadata SET city_2 = NULL WHERE city_2 = 'n/a';<br />
-                        UPDATE Spotify_Artist_Metadata SET city_3 = NULL WHERE city_3 = 'n/a';<br />
+                        UPDATE Spotify_Artist_Metadata SET city_1 = NULL WHERE city_1 = &apos;n/a&apos;;<br />
+                        UPDATE Spotify_Artist_Metadata SET city_2 = NULL WHERE city_2 = &apos;n/a&apos;;<br />
+                        UPDATE Spotify_Artist_Metadata SET city_3 = NULL WHERE city_3 = &apos;n/a&apos;;<br />
                         UPDATE Spotify_Artist_Metadata SET city_1 = city_2 WHERE city_1 IS NULL;<br />
                         UPDATE Spotify_Artist_Metadata SET city_1 = city_3 WHERE city_1 IS NULL;<br />
-                        sp_rename 'Spotify_Artist_Metadata.city_1', 'city', 'COLUMN';<br />
+                        sp_rename &apos;Spotify_Artist_Metadata.city_1&apos;, &apos;city&apos;, &apos;COLUMN&apos;;<br />
                         <br />
                         -- View adjusted data<br />
                         SELECT * FROM Spotify_Artist_Metadata;<br />
@@ -81,7 +81,7 @@ function SpotifyProject() {
                 </pre>
 
                 <p className="md:w-1/2 md:mx-auto">
-                    I also imported a dataset that contained country names and codes, considering the artist metadata dataset didn't hold the country names, and made a small adjustment.
+                    I also imported a dataset that contained country names and codes, considering the artist metadata dataset didn&apos;t hold the country names, and made a small adjustment.
                 </p>
                 <br />
                 <pre className="md:w-1/2 md:mx-auto">
@@ -90,7 +90,7 @@ function SpotifyProject() {
                         SELECT Country, Internet FROM Countries;<br />
                         <br />
                         -- Adjust DATABASE 3: change UK/GB to GB<br />
-                        UPDATE Countries SET Country = 'United Kingdom', Internet = 'GB' WHERE Country = 'United Kingdom';<br />
+                        UPDATE Countries SET Country = &apos;United Kingdom&apos;, Internet = &apos;GB&apos; WHERE Country = &apos;United Kingdom&apos;;<br />
                         <br />
                         -- View adjusted data<br />
                         SELECT Country, Internet FROM Countries;<br />
@@ -106,7 +106,7 @@ function SpotifyProject() {
                 <pre className="md:w-1/2 md:mx-auto">
                     -- VIEW 1: Artists + Streams<br />
                     CREATE VIEW Artist_Sreams AS<br />
-                    SELECT Artist, SUM(Stream) AS 'Streams'<br />
+                    SELECT Artist, SUM(Stream) AS &apos;Streams&apos;<br />
                     FROM Spotify_Youtube<br />
                     GROUP BY Artist;<br />
                     <br />
