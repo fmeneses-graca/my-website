@@ -34,7 +34,7 @@ function SpotifyProject() {
                     <br />
                 </div>
 
-                <iframe className="mx-auto" title="Spotify Top 100 Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTVhNTJmYzAtNTAzMC00ZWZhLWIwMWYtOWIwMDdkN2ExMTE1IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+                <iframe className="mx-auto md:w-1/2 md:h-96" width="390" height="200" title="Spotify Top 100 Analysis" src="https://app.powerbi.com/view?r=eyJrIjoiYTVhNTJmYzAtNTAzMC00ZWZhLWIwMWYtOWIwMDdkN2ExMTE1IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
                 <br />
                 <p className="md:w-1/2 mx-auto">*For a better experience, open the dashboard in full-screen mode</p>
 

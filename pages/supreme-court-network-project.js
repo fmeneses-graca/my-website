@@ -37,7 +37,7 @@ function LLBProject() {
                 Data Analysis Research - UniCEUB
                 </h1>
 
-                <iframe className="mx-auto" title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjk1NTBlZGYtNTRkYi00MmZiLTg2MTItNzM3ZTU5NjVmMjU5IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+                <iframe className="mx-auto md:w-1/2 md:h-96" width="390" height="200" title="Report Section" src="https://app.powerbi.com/view?r=eyJrIjoiYjk1NTBlZGYtNTRkYi00MmZiLTg2MTItNzM3ZTU5NjVmMjU5IiwidCI6ImZkYzkzMDZkLTljNDctNDc3Ni04YzEyLTI2YTc0ZDYwZGEzNyJ9" frameborder="0" allowFullScreen="true"></iframe>
                 <br />
                 <p className="md:w-1/2 mx-auto">*For a better experience, open the dashboard in full-screen mode</p>
 
