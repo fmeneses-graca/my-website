@@ -18,8 +18,8 @@ export default function ProjectSection() {
                 <div className="flex-container py-4">
                     <Card style="card-size-large" title="Data Analysis Project - Spotify Hitmakers" text={spotifyProjectText()} />
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
-                    <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Web Scraping - Amazon Product Page" text={amazonProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and BI - Presentation" text={presentationText()} />
                 </div>
