@@ -36,13 +36,14 @@ function spotifyProjectText() {
                 Who are the Top 100 Spotify Artists - based on their Top 10 Songs - and where do they come from?
             </p>
 
-            <Image src={cover} alt="Graphic" layout='fill' className="pt-4" />
-
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">SQL</p>
                 <p className="skill-element">Excel</p>
                 <p className="skill-element">Power BI</p>
             </div>
+
+            <Image src={cover} alt="Graphic" layout='fill' className="py-2" />
+
 
             <div className="flex">
                 <Link href="/spotify-project" passHref>
@@ -65,12 +66,12 @@ function mercedesProjectText() {
                 Power BI dashboard that generates insight into how road infrastructure impacts vehicle performance.
             </p>
 
-            <Image src={step2} alt="Excel spreadsheet" className="pt-4" />
-
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">Excel</p>
                 <p className="skill-element">Power BI</p>
             </div>
+
+            <Image src={step2} alt="Excel spreadsheet" className="py-2" />
 
             <div className="flex">
                 <Link href="/mercedes-benz-project" passHref>
@@ -93,12 +94,12 @@ function courtProjectText() {
                 Research paper that explains how 349 foreign precedents affected 224 court decisions.
             </p>
 
-            <Image src={frontPage} alt="Graphic" layout='fill' className="pt-4" />
-
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">Excel</p>
                 <p className="skill-element">Power BI</p>
             </div>
+
+            <Image src={frontPage} alt="Graphic" layout='fill' className="py-2" />
 
             <div className="flex">
                 <Link href="/supreme-court-network-project" passHref>
@@ -118,15 +119,15 @@ function courtProjectText() {
 function presentationText() {
     return (
         <>
-            <p className="pt-1">
+            <p className="pt-2">
                 Presentation about data analysis processes and techniques, analytics maturity models, logical data architecture, big data, and data management.
             </p>
-
-            <Image src={presentation} alt="Presentation" layout='fill' className="pt-4" />
 
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">PowerPoint</p>
             </div>
+
+            <Image src={presentation} alt="Presentation" layout='fill' className="py-2"/>
 
             <div className="flex">
                 <Link href="/presentation-project" passHref>
@@ -149,13 +150,13 @@ function amazonProjectText() {
                 Extracting data from a webpage using Python (BeautifulSoup) to generate a CSV file.
             </p>
 
-            <Image src={step6} alt="Visualize code with python" className="py-4" />
-
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">Python</p>
                 <p className="skill-element">BeautifulSoup</p>
                 <p className="skill-element">Pandas</p>
             </div>
+
+            <Image src={step6} alt="Visualize code with python" className="py-2" />
 
             <div className="flex">
                 <Link href="/amazon-web-scrapping" passHref>
@@ -178,13 +179,13 @@ function metProjectText() {
                 Full-stack web application that pulls data from the MET Museum API and allows users to explore artworks.
             </p>
 
-            <Image src={userFavouritesPage} alt="User Favourites page" className="pt-4" />
-
             <div className="flex flex-wrap py-2">
                 <p className="skill-element">JavaScript</p>
                 <p className="skill-element">MongoDB</p>
                 <p className="skill-element">REST API</p>
             </div>
+
+            <Image src={userFavouritesPage} alt="User Favourites page" className="py-2" />
 
             <div className="flex">
                 <Link href="/met-museum-project" passHref>
