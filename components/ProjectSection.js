@@ -7,6 +7,7 @@ import step2 from '../public/mercedes/step2.png'
 import presentation from '../public/presentation/presentation.png'
 import frontPage from '../public/court/frontPage.png'
 import cover from '../public/spotify/Cover.png'
+import step6 from '../public/amazon/step6.png'
 
 export default function ProjectSection() {
     return (
@@ -19,6 +20,7 @@ export default function ProjectSection() {
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
                     <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
+                    <Card style="card-size-large" title="Web Scraping - Amazon Product Page" text={amazonProjectText()} />
                     <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
                 </div>
 
@@ -132,6 +134,35 @@ function presentationText() {
                         <IoArrowForwardCircle size="40" />
                         <span className="navbar-tooltip bottom-0 left-14 scale-100">
                             View the presentation
+                        </span>
+                    </button>
+                </Link>
+            </div>
+        </>
+    )
+}
+
+function amazonProjectText() {
+    return (
+        <>
+            <p className="pt-1">
+                Extracting data from a webpage using Python (BeautifulSoup) to generate a CSV file.
+            </p>
+
+            <Image src={step6} alt="Visualize code with python" className="py-4" />
+
+            <div className="flex flex-wrap py-2">
+                <p className="skill-element">Python</p>
+                <p className="skill-element">BeautifulSoup</p>
+                <p className="skill-element">Pandas</p>
+            </div>
+
+            <div className="flex">
+                <Link href="/amazon-web-scrapping" passHref>
+                    <button className="icon group">
+                        <IoArrowForwardCircle size="40" />
+                        <span className="navbar-tooltip bottom-0 left-14 scale-100">
+                            Explore the project
                         </span>
                     </button>
                 </Link>
