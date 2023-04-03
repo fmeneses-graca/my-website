@@ -19,9 +19,9 @@ export default function ProjectSection() {
                     <Card style="card-size-large" title="Data Analysis Project - Spotify Hitmakers" text={spotifyProjectText()} />
                     <Card style="card-size-large" title="Data Analytics Project - Mercedes-Benz Trucks" text={mercedesProjectText()} />
                     <Card style="card-size-large" title="Data Analysis Research - UniCEUB" text={courtProjectText()} />
-                    <Card style="card-size-large" title="Data Analysis and Competitive Intelligence" text={presentationText()} />
                     <Card style="card-size-large" title="Web Scraping - Amazon Product Page" text={amazonProjectText()} />
                     <Card style="card-size-large" title="Website - MET Museum API Explorer" text={metProjectText()} />
+                    <Card style="card-size-large" title="Data Analysis and BI - Presentation" text={presentationText()} />
                 </div>
 
             </div>
